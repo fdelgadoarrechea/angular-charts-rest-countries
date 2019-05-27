@@ -1,0 +1,5 @@
+<mat-form-field>
+  <mat-select placeholder="Temporal granularity" [formControl]="granularityControl">
+    <mat-option *ngFor="let granularity of granularities" [value]="granularity.selection_name">{{granularity.selection_name}}</mat-option>
+  </mat-select>
+</mat-form-field>

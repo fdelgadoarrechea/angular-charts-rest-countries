@@ -1,0 +1,12 @@
+:host {
+  background: white;
+}
+.mat-list {
+  margin: 80px 0;
+  border: 1px solid #bdbdbd;
+}
+.mat-list h3,
+.mat-list h4 {
+  font-weight: 700;
+  font-size: 14px;
+}

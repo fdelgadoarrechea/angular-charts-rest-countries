@@ -1,0 +1,35 @@
+<div class="homesvg">
+  <h1>Angular 7 + D3 + REST Countries, Currency API demo</h1>
+  <div class="content home">
+    <h3>
+      Data analysis demo featuring REST Countries API and Foreign exchange rates
+      API. The following charts are available to explore and compare:
+    </h3>
+
+    <mat-list>
+      <mat-list-item>
+        <mat-icon mat-list-icon svgIcon="evolution"></mat-icon>
+        <h4 mat-line>Time Series</h4>
+        <p mat-line>Currency historical rates for a time period</p>
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon mat-list-icon svgIcon="ranking"></mat-icon>
+        <h4 mat-line>Ranking</h4>
+        <p mat-line>Population and Area top 30 by country</p>
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon mat-list-icon svgIcon="scatterplot"></mat-icon>
+        <h4 mat-line>Scatterplot</h4>
+        <p mat-line>Coming Soon</p>
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon mat-list-icon svgIcon="barplot"></mat-icon>
+        <h4 mat-line>Barplot</h4>
+        <p mat-line>Coming Soon</p>
+      </mat-list-item>
+    </mat-list>
+  </div>
+  <a [routerLink]="['/chart-menu']" disableRipple class="right">
+    <button mat-raised-button class="mat-primary">Go to chart menu</button>
+  </a>
+</div>

@@ -1,0 +1,9 @@
+<mat-form-field>
+  <mat-select [formControl]="kpiControl" placeholder="{{selectorPlaceholder}}" (selectionChange)="onChange($event)">
+    <mat-optgroup *ngFor="let group of kpaGroups" [label]="group.value">
+      <mat-option *ngFor="let kpi of group.kpi" [value]="kpi.ind_id" [disabled]="!kpi.enabled">
+        {{kpi.value}}
+      </mat-option>
+    </mat-optgroup>
+  </mat-select>
+</mat-form-field>

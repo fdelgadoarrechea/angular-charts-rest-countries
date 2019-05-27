@@ -1,0 +1,487 @@
+{
+  "type": "temporal_evolution",
+  "controls": [
+    {
+      "control_type": "hierarchical-selector",
+      "selection_type": "single",
+      "name": "Selected KPIs",
+      "enabled": false,
+      "values": [
+        {
+          "ind_id": 1,
+          "kpi": [
+            {
+              "ind_id": 12,
+              "selected": false,
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "ind_id": 2,
+          "kpi": [
+            {
+              "ind_id": 13,
+              "selected": true,
+              "enabled": true
+            },
+            {
+              "ind_id": 14,
+              "selected": false,
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "ind_id": 3,
+          "kpi": [
+            {
+              "ind_id": 15,
+              "selected": false,
+              "enabled": true
+            },
+            {
+              "ind_id": 16,
+              "selected": false,
+              "enabled": true
+            },
+            {
+              "ind_id": 17,
+              "selected": false,
+              "enabled": false
+            },
+            {
+              "ind_id": 18,
+              "selected": false,
+              "enabled": false
+            },
+            {
+              "ind_id": 19,
+              "selected": false,
+              "enabled": false
+            },
+            {
+              "ind_id": 20,
+              "selected": false,
+              "enabled": false
+            },
+            {
+              "ind_id": 21,
+              "selected": false,
+              "enabled": false
+            },
+            {
+              "ind_id": 22,
+              "selected": false,
+              "enabled": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "control_type": "selector",
+      "selection_type": "single",
+      "name": "Temporal granularity",
+      "enabled": false,
+      "values": [
+        {
+          "selection_name": "Month",
+          "selected": false
+        },
+        {
+          "selection_name": "Year",
+          "selected": false
+        },
+        {
+          "selection_name": "Range",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "control_type": "date-picker",
+      "selection_type": "multiple",
+      "min_granularity": "month",
+      "max_selection": 5,
+      "name": "Temporal intervals",
+      "enabled": false,
+      "values": [
+        {
+          "value_from": "2016-01-01",
+          "value_to": "2016-12-31"
+        },
+        {
+          "value_from": "2017-01-01",
+          "value_to": "2017-12-31"
+        }
+      ]
+    },
+    {
+      "control_type": "selector",
+      "selection_type": "multiple",
+      "max_selection": 5,
+      "name": "Entity selection",
+      "enabled": false,
+      "values": [
+        {
+          "selected": true,
+          "id": 1
+        },
+        {
+          "selected": true,
+          "id": 2
+        },
+        {
+          "selected": true,
+          "id": 3
+        }
+      ]
+    },
+    {
+      "control_type": "selector",
+      "selection_type": "multiple",
+      "name": "Category",
+      "enabled": false,
+      "values": [
+        {
+          "selected": true,
+          "id": 1
+        },
+        {
+          "selected": true,
+          "id": 2
+        },
+        {
+          "selected": true,
+          "id": 3
+        },
+        {
+          "selected": true,
+          "id": 4
+        },
+        {
+          "selected": true,
+          "id": 5
+        },
+        {
+          "selected": true,
+          "id": 6
+        },
+        {
+          "selected": true,
+          "id": 7
+        }
+      ]
+    }
+  ],
+  "chart": {
+    "title": "En-route ATFM delay",
+    "description": "TBD",
+    "axis_x": {
+      "title": "Range"
+    },
+    "axis_y": {
+      "title": "ATFM delay per flight",
+      "units": "Minutes-per-flight"
+    },
+    "datachart": [
+      {
+        "values": [
+          {
+            "categories": [
+              {
+                "id": 1,
+                "value": 0.0030147405
+              },
+              {
+                "id": 2,
+                "value": 0.0
+              },
+              {
+                "id": 3,
+                "value": 0.0034061392
+              },
+              {
+                "id": 4,
+                "value": 0.0068651119
+              },
+              {
+                "id": 5,
+                "value": 0.3285420236
+              },
+              {
+                "id": 6,
+                "value": 0.0029931759
+              },
+              {
+                "id": 7,
+                "value": 0.2210313734
+              }
+            ]
+          },
+          {
+            "categories": [
+              {
+                "id": 1,
+                "value": 0.0081328087
+              },
+              {
+                "id": 2,
+                "value": 0.0
+              },
+              {
+                "id": 3,
+                "value": 0.0018669976
+              },
+              {
+                "id": 4,
+                "value": 0.0033801731
+              },
+              {
+                "id": 5,
+                "value": 0.3031092494
+              },
+              {
+                "id": 6,
+                "value": 0.016632695
+              },
+              {
+                "id": 7,
+                "value": 0.2993150943
+              }
+            ]
+          }
+        ],
+        "id": 1
+      },
+      {
+        "values": [
+          {
+            "categories": [
+              {
+                "id": 1,
+                "value": 0.0021037414
+              },
+              {
+                "id": 2,
+                "value": 0.0
+              },
+              {
+                "id": 3,
+                "value": 0.0016344453
+              },
+              {
+                "id": 4,
+                "value": 0.0109772149
+              },
+              {
+                "id": 5,
+                "value": 0.1334635136
+              },
+              {
+                "id": 6,
+                "value": 0.0082045916
+              },
+              {
+                "id": 7,
+                "value": 0.3773410866
+              }
+            ]
+          },
+          {
+            "categories": [
+              {
+                "id": 1,
+                "value": 0.0245477282
+              },
+              {
+                "id": 2,
+                "value": 0.0
+              },
+              {
+                "id": 3,
+                "value": 0.0045105538
+              },
+              {
+                "id": 4,
+                "value": 0.0046711237
+              },
+              {
+                "id": 5,
+                "value": 0.4435426581
+              },
+              {
+                "id": 6,
+                "value": 0.0360455045
+              },
+              {
+                "id": 7,
+                "value": 0.5333401454
+              }
+            ]
+          }
+        ],
+        "id": 2
+      },
+      {
+        "values": [
+          {
+            "categories": [
+              {
+                "id": 1,
+                "value": 0.113706262
+              },
+              {
+                "id": 2,
+                "value": 0.0
+              },
+              {
+                "id": 3,
+                "value": 0.017621627
+              },
+              {
+                "id": 4,
+                "value": 0.0273749772
+              },
+              {
+                "id": 5,
+                "value": 0.142386545
+              },
+              {
+                "id": 6,
+                "value": 0.0166995202
+              },
+              {
+                "id": 7,
+                "value": 0.2182345243
+              }
+            ]
+          },
+          {
+            "categories": [
+              {
+                "id": 1,
+                "value": 0.0987844542
+              },
+              {
+                "id": 2,
+                "value": 0.0
+              },
+              {
+                "id": 3,
+                "value": 0.0038062656
+              },
+              {
+                "id": 4,
+                "value": 0.0195797439
+              },
+              {
+                "id": 5,
+                "value": 0.1150454129
+              },
+              {
+                "id": 6,
+                "value": 0.0203610185
+              },
+              {
+                "id": 7,
+                "value": 0.1639066344
+              }
+            ]
+          }
+        ],
+        "id": 3
+      }
+    ]
+  },
+  "dictionary": {
+    "entities": [
+      {
+        "code": "LE",
+        "type": "State",
+        "id": 1,
+        "name": "Spain"
+      },
+      {
+        "code": "LP",
+        "type": "State",
+        "id": 2,
+        "name": "Portugal"
+      },
+      {
+        "code": "LF",
+        "type": "State",
+        "id": 3,
+        "name": "France"
+      }
+    ],
+    "kpa": [
+      {
+        "ind_id": 1,
+        "value": "Traffic",
+        "kpi": [
+          {
+            "ind_id": 12,
+            "value": "IFR Flights"
+          }
+        ]
+      },
+      {
+        "ind_id": 2,
+        "value": "Capacity",
+        "kpi": [
+          {
+            "ind_id": 13,
+            "value": "Airport ATFM delay",
+            "json_file": "temporal_evolution_airport_atfm_delay.json"
+          },
+          {
+            "ind_id": 14,
+            "value": "En-route ATFM delay"
+          }
+        ]
+      },
+      {
+        "ind_id": 3,
+        "value": "Environment",
+        "kpi": [
+          {
+            "ind_id": 15,
+            "value": "HFE (Actual)",
+            "json_file": "temporal_evolution_hfe_actual.json"
+          },
+          {
+            "ind_id": 16,
+            "value": "HFE (Planned)",
+            "json_file": "temporal_evolution_hfe_planned.json"
+          },
+          {
+            "ind_id": 17,
+            "value": "VFE Median CCO Altitude"
+          },
+          {
+            "ind_id": 18,
+            "value": "VFE Median CDO Altitude"
+          },
+          {
+            "ind_id": 19,
+            "value": "VFE Average Time Flight Level Climb"
+          },
+          {
+            "ind_id": 20,
+            "value": "VFE Average Time Flight Level Descend"
+          },
+          {
+            "ind_id": 21,
+            "value": "Additional Taxi-out Time"
+          },
+          {
+            "ind_id": 22,
+            "value": "Additional Time in Terminal Airspace"
+          }
+        ]
+      }
+    ]
+  }
+}

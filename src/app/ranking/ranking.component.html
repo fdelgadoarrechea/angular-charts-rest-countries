@@ -1,0 +1,41 @@
+<div class="content" fxLayout="row" fxLayout.lt-md="column" fxFlexFill>
+  <div fxFlex="22" class="sec1">
+    <div class="sidebar">
+      <app-side-nav></app-side-nav>
+    </div>
+    <div class="sidebar">
+      <app-my-selection></app-my-selection>
+    </div>
+  </div>
+  <div fxFlex="72" class="main">
+    <h1>
+      {{ title }}
+      <mat-icon
+        class="white-icon"
+        [matTooltip]="description"
+        matTooltipPosition="right"
+        >info</mat-icon
+      >
+    </h1>
+
+    <div class="content">
+      <app-kpi-selector
+        [controls]="controls"
+        [dictionary]="dictionary"
+        [emitFirst]="true"
+        (kpiChange)="changeKPI($event)"
+        *ngIf="ready"
+      ></app-kpi-selector>
+
+      <div>
+        <app-ranking-chart
+          [data]="dataRanking"
+          [rankingKpas]="dictionary.kpa"
+          [colours]="colorsRadarplot"
+          [inputSort]="selectedValue"
+          *ngIf="ready"
+        ></app-ranking-chart>
+      </div>
+    </div>
+  </div>
+</div>

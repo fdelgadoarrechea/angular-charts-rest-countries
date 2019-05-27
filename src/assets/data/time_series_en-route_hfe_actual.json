@@ -1,0 +1,4463 @@
+{
+  "type": "temporal_evolution",
+  "controls": [
+    {
+      "control_type": "hierarchical-selector",
+      "selection_type": "single",
+      "name": "KPA(s) / KPI(s)",
+      "enabled": true,
+      "values": [
+        {
+          "ind_id": 1,
+          "kpi": [
+            {
+              "ind_id": 12,
+              "selected": false,
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "ind_id": 2,
+          "kpi": [
+            {
+              "ind_id": 13,
+              "selected": false,
+              "enabled": true
+            },
+            {
+              "ind_id": 14,
+              "selected": false,
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "ind_id": 3,
+          "kpi": [
+            {
+              "ind_id": 15,
+              "selected": true,
+              "enabled": true
+            },
+            {
+              "ind_id": 16,
+              "selected": false,
+              "enabled": true
+            },
+            {
+              "ind_id": 17,
+              "selected": false,
+              "enabled": false
+            },
+            {
+              "ind_id": 18,
+              "selected": false,
+              "enabled": false
+            },
+            {
+              "ind_id": 19,
+              "selected": false,
+              "enabled": false
+            },
+            {
+              "ind_id": 20,
+              "selected": false,
+              "enabled": false
+            },
+            {
+              "ind_id": 21,
+              "selected": false,
+              "enabled": false
+            },
+            {
+              "ind_id": 22,
+              "selected": false,
+              "enabled": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "control_type": "selector",
+      "selection_type": "single",
+      "name": "Temporal granularity",
+      "enabled": false,
+      "values": [
+        {
+          "selection_name": "Month",
+          "selected": true
+        },
+        {
+          "selection_name": "Year",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "control_type": "date-picker",
+      "selection_type": "interval",
+      "name": "Temporal interval",
+      "enabled": false,
+      "value_from": "2017-01-01",
+      "value_to": "2017-12-31"
+    },
+    {
+      "control_type": "selector",
+      "selection_type": "multiple",
+      "max_selection": 2,
+      "name": "Entity selection",
+      "enabled": true,
+      "values": [
+        {
+          "selected": false,
+          "id": 1
+        },
+        {
+          "selected": false,
+          "id": 2
+        },
+        {
+          "selected": false,
+          "id": 3
+        },
+        {
+          "selected": false,
+          "id": 4
+        },
+        {
+          "selected": false,
+          "id": 5
+        },
+        {
+          "selected": false,
+          "id": 6
+        },
+        {
+          "selected": true,
+          "id": 7
+        },
+        {
+          "selected": false,
+          "id": 8
+        },
+        {
+          "selected": false,
+          "id": 9
+        },
+        {
+          "selected": false,
+          "id": 10
+        },
+        {
+          "selected": false,
+          "id": 11
+        },
+        {
+          "selected": false,
+          "id": 12
+        },
+        {
+          "selected": false,
+          "id": 13
+        },
+        {
+          "selected": false,
+          "id": 14
+        },
+        {
+          "selected": false,
+          "id": 15
+        },
+        {
+          "selected": true,
+          "id": 16
+        },
+        {
+          "selected": false,
+          "id": 17
+        },
+        {
+          "selected": false,
+          "id": 18
+        },
+        {
+          "selected": false,
+          "id": 19
+        },
+        {
+          "selected": false,
+          "id": 20
+        },
+        {
+          "selected": false,
+          "id": 21
+        },
+        {
+          "selected": false,
+          "id": 22
+        },
+        {
+          "selected": false,
+          "id": 23
+        },
+        {
+          "selected": false,
+          "id": 24
+        },
+        {
+          "selected": false,
+          "id": 25
+        },
+        {
+          "selected": false,
+          "id": 26
+        },
+        {
+          "selected": false,
+          "id": 27
+        },
+        {
+          "selected": false,
+          "id": 28
+        },
+        {
+          "selected": false,
+          "id": 29
+        },
+        {
+          "selected": false,
+          "id": 30
+        },
+        {
+          "selected": false,
+          "id": 31
+        },
+        {
+          "selected": false,
+          "id": 32
+        },
+        {
+          "selected": false,
+          "id": 33
+        },
+        {
+          "selected": false,
+          "id": 34
+        },
+        {
+          "selected": false,
+          "id": 35
+        },
+        {
+          "selected": false,
+          "id": 36
+        },
+        {
+          "selected": false,
+          "id": 37
+        },
+        {
+          "selected": false,
+          "id": 38
+        },
+        {
+          "selected": false,
+          "id": 39
+        },
+        {
+          "selected": false,
+          "id": 40
+        },
+        {
+          "selected": false,
+          "id": 41
+        },
+        {
+          "selected": false,
+          "id": 42
+        },
+        {
+          "selected": false,
+          "id": 43
+        }
+      ]
+    }
+  ],
+  "chart": {
+    "title": "En-route HFE (Actual) time series",
+    "description": "Time series of the average value and distribution of the Horizontal Flight Efficiency indicator of the actual route. The average value is obtained from the division of the effective distance flown between the actual flown length in a certain entity. The quartiles and median values are calculated from the daily average values of the indicator.",
+    "axis_x": {
+      "title": "Month"
+    },
+    "axis_y": {
+      "title": "HFE",
+      "units": "-",
+      "min": 1
+    },
+    "legend": {
+      "average": "Average",
+      "median": "Median",
+      "quartile": "2nd and 3rd quartiles"
+    },
+    "datachart": [
+      {
+        "values": [
+          {
+            "quartile_3": 0.0486983231,
+            "average": 0.0456365477,
+            "quartile_1": 0.0418443162,
+            "median": 0.045001751,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0472219764,
+            "average": 0.0443635051,
+            "quartile_1": 0.0409360453,
+            "median": 0.0429302697,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0473970512,
+            "average": 0.0456099806,
+            "quartile_1": 0.0431775369,
+            "median": 0.0447988914,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0472263226,
+            "average": 0.0446539765,
+            "quartile_1": 0.0425366355,
+            "median": 0.044946696,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.04787261,
+            "average": 0.0463195523,
+            "quartile_1": 0.0440777396,
+            "median": 0.0465860142,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0479636506,
+            "average": 0.0461243574,
+            "quartile_1": 0.0434740957,
+            "median": 0.0464535926,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0458700361,
+            "average": 0.0443364502,
+            "quartile_1": 0.0423507162,
+            "median": 0.0441119324,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0456398977,
+            "average": 0.0439531447,
+            "quartile_1": 0.0422489266,
+            "median": 0.0438472646,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0466301685,
+            "average": 0.0456921358,
+            "quartile_1": 0.0423783028,
+            "median": 0.0447456303,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0463036091,
+            "average": 0.043655481,
+            "quartile_1": 0.0407382917,
+            "median": 0.0443254885,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0437017176,
+            "average": 0.0422090174,
+            "quartile_1": 0.0400121954,
+            "median": 0.0419343535,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0478952106,
+            "average": 0.0453016071,
+            "quartile_1": 0.0420921212,
+            "median": 0.0445347609,
+            "time": "2017-12"
+          }
+        ],
+        "id": 1
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0341821983,
+            "average": 0.0328439773,
+            "quartile_1": 0.031030613,
+            "median": 0.0328785515,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0323218451,
+            "average": 0.030653974,
+            "quartile_1": 0.0292790499,
+            "median": 0.0311616326,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0332319545,
+            "average": 0.0321105992,
+            "quartile_1": 0.0292641675,
+            "median": 0.0314121863,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0327545293,
+            "average": 0.0307773689,
+            "quartile_1": 0.0280676091,
+            "median": 0.0314898988,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0334188787,
+            "average": 0.0318083324,
+            "quartile_1": 0.0305612971,
+            "median": 0.0322947008,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0340214006,
+            "average": 0.0330820721,
+            "quartile_1": 0.0309623562,
+            "median": 0.032262968,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0321530439,
+            "average": 0.0311446922,
+            "quartile_1": 0.0295574906,
+            "median": 0.0304528804,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0303601911,
+            "average": 0.0293207324,
+            "quartile_1": 0.0273309037,
+            "median": 0.028862067,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0336446266,
+            "average": 0.0331506352,
+            "quartile_1": 0.0298870461,
+            "median": 0.031034829,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0320850223,
+            "average": 0.0314182104,
+            "quartile_1": 0.0290873621,
+            "median": 0.0307509132,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0316438252,
+            "average": 0.0305550684,
+            "quartile_1": 0.0277358025,
+            "median": 0.0304365284,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0307003349,
+            "average": 0.0287960246,
+            "quartile_1": 0.0267701133,
+            "median": 0.0297486696,
+            "time": "2017-12"
+          }
+        ],
+        "id": 2
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.022264483,
+            "average": 0.0215789048,
+            "quartile_1": 0.0202924126,
+            "median": 0.0213950723,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0225588013,
+            "average": 0.0218596236,
+            "quartile_1": 0.0208601319,
+            "median": 0.0215939904,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0224343723,
+            "average": 0.0217863754,
+            "quartile_1": 0.0210515338,
+            "median": 0.0218409764,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0231518697,
+            "average": 0.0221399395,
+            "quartile_1": 0.0211320518,
+            "median": 0.022135,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0244681157,
+            "average": 0.0238608855,
+            "quartile_1": 0.0223890104,
+            "median": 0.0231944956,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0250010981,
+            "average": 0.0252233668,
+            "quartile_1": 0.0234289814,
+            "median": 0.0238771016,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0258250025,
+            "average": 0.0246935224,
+            "quartile_1": 0.0231059116,
+            "median": 0.0240920898,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0255076419,
+            "average": 0.0254741886,
+            "quartile_1": 0.0231641408,
+            "median": 0.0241132987,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0241834099,
+            "average": 0.0234457284,
+            "quartile_1": 0.0228953573,
+            "median": 0.0233212897,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0235758886,
+            "average": 0.0227773867,
+            "quartile_1": 0.0218220345,
+            "median": 0.0228644188,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.022411352,
+            "average": 0.0214161058,
+            "quartile_1": 0.020706905,
+            "median": 0.0216278614,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0224992475,
+            "average": 0.0212340899,
+            "quartile_1": 0.0201994889,
+            "median": 0.0213255798,
+            "time": "2017-12"
+          }
+        ],
+        "id": 3
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0157640161,
+            "average": 0.0148462162,
+            "quartile_1": 0.0138303988,
+            "median": 0.0148004499,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0143727657,
+            "average": 0.0138019102,
+            "quartile_1": 0.0129252625,
+            "median": 0.0136461728,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0149097577,
+            "average": 0.0142853371,
+            "quartile_1": 0.0135853703,
+            "median": 0.01412737,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.015025847,
+            "average": 0.0143505118,
+            "quartile_1": 0.0133651332,
+            "median": 0.0144149377,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0173134073,
+            "average": 0.0166337161,
+            "quartile_1": 0.0144156425,
+            "median": 0.0157230826,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0180497081,
+            "average": 0.0175014168,
+            "quartile_1": 0.0155565166,
+            "median": 0.0166426617,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0178701272,
+            "average": 0.0173252632,
+            "quartile_1": 0.01589951,
+            "median": 0.0165511184,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0161118718,
+            "average": 0.0161251528,
+            "quartile_1": 0.014656006,
+            "median": 0.0151864396,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0168116562,
+            "average": 0.0160853643,
+            "quartile_1": 0.0146043227,
+            "median": 0.0152698343,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0145120236,
+            "average": 0.0142612473,
+            "quartile_1": 0.0135876536,
+            "median": 0.0141777195,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0154033949,
+            "average": 0.014880852,
+            "quartile_1": 0.0139123581,
+            "median": 0.0146694486,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0156684457,
+            "average": 0.0148833969,
+            "quartile_1": 0.0141671575,
+            "median": 0.0148656344,
+            "time": "2017-12"
+          }
+        ],
+        "id": 4
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0151312974,
+            "average": 0.0146520338,
+            "quartile_1": 0.0133431278,
+            "median": 0.0145201591,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0159073503,
+            "average": 0.0150431566,
+            "quartile_1": 0.014033136,
+            "median": 0.0146099511,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0160640425,
+            "average": 0.0150847666,
+            "quartile_1": 0.0136651422,
+            "median": 0.0146074024,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0171771459,
+            "average": 0.0156604295,
+            "quartile_1": 0.0141681291,
+            "median": 0.0147760084,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0189660053,
+            "average": 0.017986868,
+            "quartile_1": 0.0168423116,
+            "median": 0.0177189985,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0219278676,
+            "average": 0.0213619678,
+            "quartile_1": 0.0199465006,
+            "median": 0.0204936047,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0222354642,
+            "average": 0.0218409972,
+            "quartile_1": 0.0201136773,
+            "median": 0.0208903058,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.022696364,
+            "average": 0.0220482937,
+            "quartile_1": 0.0202257136,
+            "median": 0.0206890879,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0220205029,
+            "average": 0.0209767574,
+            "quartile_1": 0.0198135743,
+            "median": 0.0208972463,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0193317027,
+            "average": 0.0185250138,
+            "quartile_1": 0.0171497235,
+            "median": 0.0180224972,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0173987045,
+            "average": 0.0160475548,
+            "quartile_1": 0.0148888818,
+            "median": 0.0156597364,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0169008877,
+            "average": 0.0162792276,
+            "quartile_1": 0.015367537,
+            "median": 0.015927037,
+            "time": "2017-12"
+          }
+        ],
+        "id": 5
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0125100965,
+            "average": 0.0117354691,
+            "quartile_1": 0.0106189432,
+            "median": 0.011337056,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0125343583,
+            "average": 0.0114411365,
+            "quartile_1": 0.0099479207,
+            "median": 0.0115990038,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0117396276,
+            "average": 0.010581264,
+            "quartile_1": 0.0091479071,
+            "median": 0.0099832522,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0113942586,
+            "average": 0.0104727602,
+            "quartile_1": 0.0091909555,
+            "median": 0.0100943816,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0106238376,
+            "average": 0.0100532294,
+            "quartile_1": 0.0090329154,
+            "median": 0.0097344304,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0107447745,
+            "average": 0.0100791083,
+            "quartile_1": 0.0087753951,
+            "median": 0.0099416269,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0142305255,
+            "average": 0.012849712,
+            "quartile_1": 0.0116809026,
+            "median": 0.013356382,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0131243,
+            "average": 0.0120317578,
+            "quartile_1": 0.0106907509,
+            "median": 0.0115310117,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0128758661,
+            "average": 0.0129766742,
+            "quartile_1": 0.0107326765,
+            "median": 0.0116744776,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0155790298,
+            "average": 0.0155665522,
+            "quartile_1": 0.0129044515,
+            "median": 0.0140837884,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0159241322,
+            "average": 0.0144439909,
+            "quartile_1": 0.0111432798,
+            "median": 0.0125681051,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.011677844,
+            "average": 0.010965855,
+            "quartile_1": 0.0100808484,
+            "median": 0.0107433107,
+            "time": "2017-12"
+          }
+        ],
+        "id": 6
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0358249894,
+            "average": 0.0338626169,
+            "quartile_1": 0.0317404004,
+            "median": 0.0347635305,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0332754258,
+            "average": 0.0320659535,
+            "quartile_1": 0.0304912379,
+            "median": 0.0327784252,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0344551349,
+            "average": 0.0345943533,
+            "quartile_1": 0.0318537513,
+            "median": 0.0338990891,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0343640402,
+            "average": 0.0328891745,
+            "quartile_1": 0.03068112,
+            "median": 0.0335093783,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0355460539,
+            "average": 0.0343071046,
+            "quartile_1": 0.0329828238,
+            "median": 0.0345451891,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0368045615,
+            "average": 0.0350453502,
+            "quartile_1": 0.0330527567,
+            "median": 0.0353678255,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.035400758,
+            "average": 0.0344593939,
+            "quartile_1": 0.0334105447,
+            "median": 0.0341647904,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0343463235,
+            "average": 0.0334872052,
+            "quartile_1": 0.0320759509,
+            "median": 0.0334766573,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0349303213,
+            "average": 0.0337705414,
+            "quartile_1": 0.0329831707,
+            "median": 0.0340235296,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0346648862,
+            "average": 0.0333403829,
+            "quartile_1": 0.0316782506,
+            "median": 0.0336783622,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0337759251,
+            "average": 0.0322898148,
+            "quartile_1": 0.0310824036,
+            "median": 0.0323494885,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0338331043,
+            "average": 0.0311902183,
+            "quartile_1": 0.0284035618,
+            "median": 0.0315910843,
+            "time": "2017-12"
+          }
+        ],
+        "id": 7
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0524317779,
+            "average": 0.0490904275,
+            "quartile_1": 0.0450616445,
+            "median": 0.0497338985,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0451838245,
+            "average": 0.042998254,
+            "quartile_1": 0.0408974796,
+            "median": 0.0436117388,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0498469099,
+            "average": 0.0477469612,
+            "quartile_1": 0.042773374,
+            "median": 0.0463717331,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0466149414,
+            "average": 0.0426025389,
+            "quartile_1": 0.0380958441,
+            "median": 0.0436616932,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0464321145,
+            "average": 0.0445108821,
+            "quartile_1": 0.0402549735,
+            "median": 0.0456308063,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0496557486,
+            "average": 0.0458537834,
+            "quartile_1": 0.0428581004,
+            "median": 0.046020237,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0474965751,
+            "average": 0.0455279299,
+            "quartile_1": 0.0429496633,
+            "median": 0.045347423,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0461200741,
+            "average": 0.0439493531,
+            "quartile_1": 0.0410081347,
+            "median": 0.043214241,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0458240427,
+            "average": 0.0436890871,
+            "quartile_1": 0.0407982626,
+            "median": 0.0438037296,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.045542769,
+            "average": 0.0434597913,
+            "quartile_1": 0.0402384399,
+            "median": 0.0437929875,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0440996584,
+            "average": 0.0423877717,
+            "quartile_1": 0.0397779989,
+            "median": 0.0424397237,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0436745956,
+            "average": 0.0413451228,
+            "quartile_1": 0.0390511658,
+            "median": 0.0409231426,
+            "time": "2017-12"
+          }
+        ],
+        "id": 8
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0310009389,
+            "average": 0.0291111604,
+            "quartile_1": 0.0254612673,
+            "median": 0.0286035795,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0333858953,
+            "average": 0.0322129588,
+            "quartile_1": 0.0293392027,
+            "median": 0.0305242488,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0330360882,
+            "average": 0.0313362089,
+            "quartile_1": 0.0293531827,
+            "median": 0.0313832063,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0321555679,
+            "average": 0.0293933894,
+            "quartile_1": 0.0248444184,
+            "median": 0.0297627537,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.035877318,
+            "average": 0.0324040774,
+            "quartile_1": 0.0287657984,
+            "median": 0.0320347188,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0341966908,
+            "average": 0.0316765114,
+            "quartile_1": 0.0262948456,
+            "median": 0.0324820387,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0323901134,
+            "average": 0.0305176586,
+            "quartile_1": 0.0265641161,
+            "median": 0.0309188996,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.031891333,
+            "average": 0.0306991481,
+            "quartile_1": 0.0281850304,
+            "median": 0.0306475507,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0348956124,
+            "average": 0.0327352815,
+            "quartile_1": 0.0281034698,
+            "median": 0.0329550766,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0317668187,
+            "average": 0.0301647298,
+            "quartile_1": 0.0266035513,
+            "median": 0.030329538,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0299988881,
+            "average": 0.0283471599,
+            "quartile_1": 0.0267138342,
+            "median": 0.0292217374,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0300280101,
+            "average": 0.0292368598,
+            "quartile_1": 0.023481162,
+            "median": 0.0270596607,
+            "time": "2017-12"
+          }
+        ],
+        "id": 9
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0213503023,
+            "average": 0.0203366848,
+            "quartile_1": 0.0194537195,
+            "median": 0.020021246,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0211873366,
+            "average": 0.0204371085,
+            "quartile_1": 0.0194041091,
+            "median": 0.0199157189,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0215077025,
+            "average": 0.0206689474,
+            "quartile_1": 0.0200456591,
+            "median": 0.0208526742,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0208269413,
+            "average": 0.0205464201,
+            "quartile_1": 0.0199139625,
+            "median": 0.0204975749,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0227340643,
+            "average": 0.0225569427,
+            "quartile_1": 0.0207416717,
+            "median": 0.0219125011,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.023822175,
+            "average": 0.0236566865,
+            "quartile_1": 0.0220452929,
+            "median": 0.0228543892,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0249647838,
+            "average": 0.0244177672,
+            "quartile_1": 0.0218944932,
+            "median": 0.0233051094,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0236353284,
+            "average": 0.0232080521,
+            "quartile_1": 0.0209400743,
+            "median": 0.0215579503,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0223593344,
+            "average": 0.0215779968,
+            "quartile_1": 0.0208040722,
+            "median": 0.0214781797,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0214636866,
+            "average": 0.0211216634,
+            "quartile_1": 0.0200312003,
+            "median": 0.0208772251,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0208034579,
+            "average": 0.0200386291,
+            "quartile_1": 0.0190281658,
+            "median": 0.0198297449,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0208651322,
+            "average": 0.0202544485,
+            "quartile_1": 0.0195929114,
+            "median": 0.0202717461,
+            "time": "2017-12"
+          }
+        ],
+        "id": 10
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.014620174,
+            "average": 0.0136834198,
+            "quartile_1": 0.0122404372,
+            "median": 0.0136272447,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0149823924,
+            "average": 0.0141144329,
+            "quartile_1": 0.0130163759,
+            "median": 0.013604441,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0164516895,
+            "average": 0.0152595676,
+            "quartile_1": 0.0134213651,
+            "median": 0.0144735077,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0141249294,
+            "average": 0.0135770659,
+            "quartile_1": 0.0123134702,
+            "median": 0.0131852974,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0138213899,
+            "average": 0.0128940349,
+            "quartile_1": 0.0121772275,
+            "median": 0.0128230857,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0149945699,
+            "average": 0.0139751465,
+            "quartile_1": 0.0129440762,
+            "median": 0.0135723221,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0141923531,
+            "average": 0.0136941658,
+            "quartile_1": 0.0125820882,
+            "median": 0.0133343073,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0150845354,
+            "average": 0.0135994719,
+            "quartile_1": 0.0120762963,
+            "median": 0.0134444358,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0150876883,
+            "average": 0.0139487751,
+            "quartile_1": 0.0127156533,
+            "median": 0.0135816893,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0138357238,
+            "average": 0.0130574017,
+            "quartile_1": 0.0118912424,
+            "median": 0.0125529517,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0137631858,
+            "average": 0.0131011508,
+            "quartile_1": 0.0118077782,
+            "median": 0.0128379552,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0141708574,
+            "average": 0.0127698448,
+            "quartile_1": 0.0113919029,
+            "median": 0.0127496456,
+            "time": "2017-12"
+          }
+        ],
+        "id": 11
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0314215559,
+            "average": 0.0283186571,
+            "quartile_1": 0.0228252522,
+            "median": 0.0288110081,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0348828481,
+            "average": 0.0315412366,
+            "quartile_1": 0.0276180849,
+            "median": 0.0308117606,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0385274291,
+            "average": 0.0316684646,
+            "quartile_1": 0.0268641425,
+            "median": 0.0298072602,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0346576316,
+            "average": 0.0309758953,
+            "quartile_1": 0.0252849229,
+            "median": 0.0315685219,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0318958242,
+            "average": 0.0275394122,
+            "quartile_1": 0.0223148046,
+            "median": 0.0247617522,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.021654559,
+            "average": 0.0162342749,
+            "quartile_1": 0.0123101714,
+            "median": 0.0135587875,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0114380441,
+            "average": 0.0108952938,
+            "quartile_1": 0.0103720001,
+            "median": 0.010957125,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0127940989,
+            "average": 0.0119852311,
+            "quartile_1": 0.0110965237,
+            "median": 0.0118108854,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0149746313,
+            "average": 0.0133243932,
+            "quartile_1": 0.0116154103,
+            "median": 0.0134226426,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0170911867,
+            "average": 0.0153065568,
+            "quartile_1": 0.0133493619,
+            "median": 0.0148288005,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0174555991,
+            "average": 0.0156749507,
+            "quartile_1": 0.0126249348,
+            "median": 0.0146460382,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0132080868,
+            "average": 0.0128504959,
+            "quartile_1": 0.0104926603,
+            "median": 0.0115949289,
+            "time": "2017-12"
+          }
+        ],
+        "id": 12
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0198838556,
+            "average": 0.0183407214,
+            "quartile_1": 0.0156111816,
+            "median": 0.0179689991,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0181237661,
+            "average": 0.0171775569,
+            "quartile_1": 0.0159406364,
+            "median": 0.0168166831,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0193734451,
+            "average": 0.0179729735,
+            "quartile_1": 0.016349685,
+            "median": 0.0174072195,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.019457601,
+            "average": 0.0182903825,
+            "quartile_1": 0.0159920274,
+            "median": 0.0179710545,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0202302436,
+            "average": 0.0190010094,
+            "quartile_1": 0.0173974117,
+            "median": 0.019205586,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0211477418,
+            "average": 0.0199357382,
+            "quartile_1": 0.0176029568,
+            "median": 0.0187908585,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0209718558,
+            "average": 0.0190273165,
+            "quartile_1": 0.0165977473,
+            "median": 0.0184297478,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0184729065,
+            "average": 0.0177273533,
+            "quartile_1": 0.0164010829,
+            "median": 0.0175005797,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0185362965,
+            "average": 0.017562121,
+            "quartile_1": 0.0154080008,
+            "median": 0.0170070835,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0164498391,
+            "average": 0.0155709836,
+            "quartile_1": 0.0140030573,
+            "median": 0.0152186713,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.016925352,
+            "average": 0.0162950623,
+            "quartile_1": 0.0148911709,
+            "median": 0.0159604204,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0178603696,
+            "average": 0.0171742813,
+            "quartile_1": 0.0161294196,
+            "median": 0.0170755703,
+            "time": "2017-12"
+          }
+        ],
+        "id": 13
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0283587348,
+            "average": 0.0269315665,
+            "quartile_1": 0.0250575667,
+            "median": 0.0274399915,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0282021003,
+            "average": 0.0269859571,
+            "quartile_1": 0.0255166674,
+            "median": 0.0274217405,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0292064395,
+            "average": 0.0286892619,
+            "quartile_1": 0.0268525111,
+            "median": 0.028247331,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0290648063,
+            "average": 0.0274909611,
+            "quartile_1": 0.0253930076,
+            "median": 0.0283479431,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0302693339,
+            "average": 0.0292022968,
+            "quartile_1": 0.0286354725,
+            "median": 0.029630054,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0311097742,
+            "average": 0.0302446288,
+            "quartile_1": 0.0286370044,
+            "median": 0.0305477335,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.030627869,
+            "average": 0.0297719623,
+            "quartile_1": 0.0288190684,
+            "median": 0.0297622987,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.029885186,
+            "average": 0.0290368697,
+            "quartile_1": 0.0280812777,
+            "median": 0.0290958361,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0298565597,
+            "average": 0.0291388626,
+            "quartile_1": 0.028470359,
+            "median": 0.0292722559,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0294595129,
+            "average": 0.0282081815,
+            "quartile_1": 0.0261061003,
+            "median": 0.0286670541,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0274371631,
+            "average": 0.0264771152,
+            "quartile_1": 0.0254414536,
+            "median": 0.0271082333,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0272524636,
+            "average": 0.0253499697,
+            "quartile_1": 0.0234026488,
+            "median": 0.0262791725,
+            "time": "2017-12"
+          }
+        ],
+        "id": 14
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0152645516,
+            "average": 0.014899525,
+            "quartile_1": 0.0140231687,
+            "median": 0.0145784892,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0148247117,
+            "average": 0.0144255742,
+            "quartile_1": 0.0137796283,
+            "median": 0.0142572455,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0161405805,
+            "average": 0.0154963501,
+            "quartile_1": 0.0146660485,
+            "median": 0.015486721,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0165024972,
+            "average": 0.0153128685,
+            "quartile_1": 0.0141710896,
+            "median": 0.0151898678,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0175764977,
+            "average": 0.0170366373,
+            "quartile_1": 0.0155822623,
+            "median": 0.0162261049,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0236706881,
+            "average": 0.021693361,
+            "quartile_1": 0.0171789384,
+            "median": 0.0184797862,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0207259639,
+            "average": 0.0199962885,
+            "quartile_1": 0.0172004909,
+            "median": 0.0192895416,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.023195476,
+            "average": 0.0202226337,
+            "quartile_1": 0.0162497997,
+            "median": 0.0175325713,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0194792596,
+            "average": 0.018131831,
+            "quartile_1": 0.016089101,
+            "median": 0.0168965348,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0164174673,
+            "average": 0.0157367456,
+            "quartile_1": 0.014791197,
+            "median": 0.0155117781,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0150630091,
+            "average": 0.0145319211,
+            "quartile_1": 0.013816144,
+            "median": 0.0144536325,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0154620996,
+            "average": 0.014400882,
+            "quartile_1": 0.0133025142,
+            "median": 0.0144265343,
+            "time": "2017-12"
+          }
+        ],
+        "id": 15
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0280212566,
+            "average": 0.0263942149,
+            "quartile_1": 0.0245915563,
+            "median": 0.0271903485,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0280094435,
+            "average": 0.0268729038,
+            "quartile_1": 0.0252333938,
+            "median": 0.0272225993,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0291628247,
+            "average": 0.0278434966,
+            "quartile_1": 0.0257325789,
+            "median": 0.0283347651,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0289342696,
+            "average": 0.0270806671,
+            "quartile_1": 0.0248345083,
+            "median": 0.0280117139,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0297005734,
+            "average": 0.0291445379,
+            "quartile_1": 0.0276517574,
+            "median": 0.0289175074,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0307470979,
+            "average": 0.0302659652,
+            "quartile_1": 0.0272920677,
+            "median": 0.0300206647,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0309577496,
+            "average": 0.0302280246,
+            "quartile_1": 0.027760732,
+            "median": 0.0295812088,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0322607869,
+            "average": 0.0304524439,
+            "quartile_1": 0.027804778,
+            "median": 0.0294560448,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0304902395,
+            "average": 0.0291484851,
+            "quartile_1": 0.0270261767,
+            "median": 0.0291609073,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0299328104,
+            "average": 0.0283787138,
+            "quartile_1": 0.026347389,
+            "median": 0.0289443611,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0280244108,
+            "average": 0.0266697454,
+            "quartile_1": 0.0254935356,
+            "median": 0.0272696886,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0281543858,
+            "average": 0.0254747278,
+            "quartile_1": 0.0228599722,
+            "median": 0.0254187771,
+            "time": "2017-12"
+          }
+        ],
+        "id": 16
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0106319725,
+            "average": 0.0097953007,
+            "quartile_1": 0.0091712884,
+            "median": 0.0098891235,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0097948976,
+            "average": 0.0091697762,
+            "quartile_1": 0.008548167,
+            "median": 0.0091215038,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0106128156,
+            "average": 0.0099025519,
+            "quartile_1": 0.0092343109,
+            "median": 0.0096510968,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0103474579,
+            "average": 0.009637646,
+            "quartile_1": 0.0089658599,
+            "median": 0.0098014145,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0123471209,
+            "average": 0.0114507565,
+            "quartile_1": 0.0099532075,
+            "median": 0.0106429104,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0152152668,
+            "average": 0.0139071575,
+            "quartile_1": 0.0115747937,
+            "median": 0.012450546,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.014431784,
+            "average": 0.0130675782,
+            "quartile_1": 0.0113984293,
+            "median": 0.0122527576,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.012998528,
+            "average": 0.0124643214,
+            "quartile_1": 0.0108406882,
+            "median": 0.0112797719,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0129685437,
+            "average": 0.0127314877,
+            "quartile_1": 0.0101980845,
+            "median": 0.0111553884,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0108413294,
+            "average": 0.0102597596,
+            "quartile_1": 0.0095373225,
+            "median": 0.0101702148,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0103982275,
+            "average": 0.0099533337,
+            "quartile_1": 0.0093042954,
+            "median": 0.0096919486,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0108615258,
+            "average": 0.0102022188,
+            "quartile_1": 0.0094106947,
+            "median": 0.0103591402,
+            "time": "2017-12"
+          }
+        ],
+        "id": 17
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0214106534,
+            "average": 0.0229766772,
+            "quartile_1": 0.0188617256,
+            "median": 0.0206776032,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0245687573,
+            "average": 0.0291104643,
+            "quartile_1": 0.0193249434,
+            "median": 0.0223423715,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0240362774,
+            "average": 0.021892247,
+            "quartile_1": 0.0200542257,
+            "median": 0.0217079729,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0265631191,
+            "average": 0.0246173661,
+            "quartile_1": 0.021742435,
+            "median": 0.0233621707,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0297870273,
+            "average": 0.0276810974,
+            "quartile_1": 0.0248573376,
+            "median": 0.0282289657,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0304094182,
+            "average": 0.0287684822,
+            "quartile_1": 0.0237149881,
+            "median": 0.0274429733,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0284769406,
+            "average": 0.0264273763,
+            "quartile_1": 0.0233186874,
+            "median": 0.0260194808,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0277072076,
+            "average": 0.0259927498,
+            "quartile_1": 0.0237822352,
+            "median": 0.026211281,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0268782425,
+            "average": 0.0259077609,
+            "quartile_1": 0.0238602541,
+            "median": 0.0250211809,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0284051202,
+            "average": 0.0266521219,
+            "quartile_1": 0.0237378703,
+            "median": 0.0258245537,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0237534818,
+            "average": 0.0229072973,
+            "quartile_1": 0.0212884871,
+            "median": 0.0222107898,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0263865235,
+            "average": 0.0270875178,
+            "quartile_1": 0.0204772484,
+            "median": 0.0233082707,
+            "time": "2017-12"
+          }
+        ],
+        "id": 18
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0426692831,
+            "average": 0.0380628929,
+            "quartile_1": 0.0329336002,
+            "median": 0.0401582443,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0407445637,
+            "average": 0.0364787203,
+            "quartile_1": 0.0312728507,
+            "median": 0.0379019494,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0436234978,
+            "average": 0.0408161747,
+            "quartile_1": 0.0347053606,
+            "median": 0.0397098758,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0416533763,
+            "average": 0.037895074,
+            "quartile_1": 0.031070535,
+            "median": 0.041022418,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0425963506,
+            "average": 0.0394860875,
+            "quartile_1": 0.0377415637,
+            "median": 0.0403987739,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0447189729,
+            "average": 0.0405046792,
+            "quartile_1": 0.0347513858,
+            "median": 0.0413363125,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0413924942,
+            "average": 0.0391177751,
+            "quartile_1": 0.0347679541,
+            "median": 0.0401993498,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.042598298,
+            "average": 0.039276026,
+            "quartile_1": 0.0352938597,
+            "median": 0.0400803623,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0427262944,
+            "average": 0.0391024598,
+            "quartile_1": 0.0333869473,
+            "median": 0.0396890209,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0429182953,
+            "average": 0.0396897811,
+            "quartile_1": 0.0341639731,
+            "median": 0.0408715415,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0411652462,
+            "average": 0.0368005737,
+            "quartile_1": 0.0309089877,
+            "median": 0.0380262324,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0397426544,
+            "average": 0.0340451798,
+            "quartile_1": 0.0277824184,
+            "median": 0.0341874813,
+            "time": "2017-12"
+          }
+        ],
+        "id": 19
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0353665508,
+            "average": 0.0338762119,
+            "quartile_1": 0.0327545316,
+            "median": 0.0338607621,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.03590221,
+            "average": 0.0350906083,
+            "quartile_1": 0.0341349986,
+            "median": 0.0353493837,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0391698723,
+            "average": 0.0388734027,
+            "quartile_1": 0.0349217657,
+            "median": 0.0366186889,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0372443542,
+            "average": 0.0360364743,
+            "quartile_1": 0.0343109226,
+            "median": 0.0355016183,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0407699214,
+            "average": 0.0390189576,
+            "quartile_1": 0.0370881089,
+            "median": 0.0385380576,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0426424376,
+            "average": 0.0411871516,
+            "quartile_1": 0.0391682023,
+            "median": 0.0405796829,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0406457142,
+            "average": 0.0401508559,
+            "quartile_1": 0.0381562696,
+            "median": 0.0395418072,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0400699562,
+            "average": 0.0391785518,
+            "quartile_1": 0.0376397548,
+            "median": 0.0383442808,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0390671662,
+            "average": 0.0384911049,
+            "quartile_1": 0.037052805,
+            "median": 0.0380672053,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.037876794,
+            "average": 0.0371185037,
+            "quartile_1": 0.0346140652,
+            "median": 0.0364321608,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0350236134,
+            "average": 0.0342903344,
+            "quartile_1": 0.0325273895,
+            "median": 0.0342993636,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0342303016,
+            "average": 0.0326494001,
+            "quartile_1": 0.0309434142,
+            "median": 0.0328743425,
+            "time": "2017-12"
+          }
+        ],
+        "id": 20
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0279843003,
+            "average": 0.023387847,
+            "quartile_1": 0.0154210281,
+            "median": 0.0215103338,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0311264568,
+            "average": 0.027342745,
+            "quartile_1": 0.019125821,
+            "median": 0.0278589571,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0308317475,
+            "average": 0.0288297441,
+            "quartile_1": 0.0251262234,
+            "median": 0.0284062483,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0318355768,
+            "average": 0.0294571396,
+            "quartile_1": 0.0259346724,
+            "median": 0.0282043725,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0292249344,
+            "average": 0.0269862219,
+            "quartile_1": 0.0250413451,
+            "median": 0.0266642101,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.027625779,
+            "average": 0.0261968646,
+            "quartile_1": 0.0236199525,
+            "median": 0.0255549622,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0303286497,
+            "average": 0.02894419,
+            "quartile_1": 0.0246153412,
+            "median": 0.0274155878,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0296843211,
+            "average": 0.027375092,
+            "quartile_1": 0.0243569388,
+            "median": 0.0280963415,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0290018985,
+            "average": 0.026501714,
+            "quartile_1": 0.0229292186,
+            "median": 0.0262468129,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0279210888,
+            "average": 0.0263495897,
+            "quartile_1": 0.0241853984,
+            "median": 0.0258034807,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0314764042,
+            "average": 0.0287006135,
+            "quartile_1": 0.0257418363,
+            "median": 0.0285568573,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0328237404,
+            "average": 0.0313948388,
+            "quartile_1": 0.0263427117,
+            "median": 0.0295917479,
+            "time": "2017-12"
+          }
+        ],
+        "id": 21
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0137637053,
+            "average": 0.011626143,
+            "quartile_1": 0.0098138478,
+            "median": 0.0116849307,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0137566506,
+            "average": 0.0124770008,
+            "quartile_1": 0.0108461107,
+            "median": 0.0123329631,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0146867719,
+            "average": 0.0150055699,
+            "quartile_1": 0.0104608362,
+            "median": 0.0119715855,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0143439527,
+            "average": 0.0131534033,
+            "quartile_1": 0.0103576402,
+            "median": 0.0123237947,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0232416538,
+            "average": 0.0193037197,
+            "quartile_1": 0.0153981737,
+            "median": 0.0184524165,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0189826349,
+            "average": 0.0168572951,
+            "quartile_1": 0.0121833755,
+            "median": 0.0147476794,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.019127538,
+            "average": 0.0176051993,
+            "quartile_1": 0.0126406925,
+            "median": 0.015524577,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0166169757,
+            "average": 0.0154611156,
+            "quartile_1": 0.012312702,
+            "median": 0.0142584479,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0163324164,
+            "average": 0.0150984323,
+            "quartile_1": 0.0122850775,
+            "median": 0.0141649352,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0171014087,
+            "average": 0.0144614929,
+            "quartile_1": 0.0110718633,
+            "median": 0.0132134051,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0123054287,
+            "average": 0.0115271951,
+            "quartile_1": 0.0102138898,
+            "median": 0.0111463942,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0125484509,
+            "average": 0.0114164635,
+            "quartile_1": 0.0099098069,
+            "median": 0.0112085443,
+            "time": "2017-12"
+          }
+        ],
+        "id": 22
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0155151993,
+            "average": 0.0150741041,
+            "quartile_1": 0.0130447289,
+            "median": 0.0147141707,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0164062719,
+            "average": 0.015090938,
+            "quartile_1": 0.0140125249,
+            "median": 0.0149388963,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0209014941,
+            "average": 0.0189125,
+            "quartile_1": 0.0155020955,
+            "median": 0.0166171789,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0155223763,
+            "average": 0.0151075958,
+            "quartile_1": 0.0143211071,
+            "median": 0.0148271939,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0170362997,
+            "average": 0.0163461303,
+            "quartile_1": 0.0149490462,
+            "median": 0.0156690213,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0172482592,
+            "average": 0.0167629463,
+            "quartile_1": 0.0155108568,
+            "median": 0.0161594784,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.016957086,
+            "average": 0.0170575204,
+            "quartile_1": 0.0154607199,
+            "median": 0.0159526138,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0168083054,
+            "average": 0.0165695543,
+            "quartile_1": 0.01542054,
+            "median": 0.0163354107,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0166536526,
+            "average": 0.01622089,
+            "quartile_1": 0.0152861098,
+            "median": 0.0159691785,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0174598992,
+            "average": 0.0175856851,
+            "quartile_1": 0.0149779893,
+            "median": 0.0158281067,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.016878315,
+            "average": 0.0159852926,
+            "quartile_1": 0.0144946339,
+            "median": 0.0151484846,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0150670398,
+            "average": 0.0150015032,
+            "quartile_1": 0.0136716663,
+            "median": 0.0145075302,
+            "time": "2017-12"
+          }
+        ],
+        "id": 23
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0106671553,
+            "average": 0.0100781043,
+            "quartile_1": 0.0089996928,
+            "median": 0.0098901224,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0107076388,
+            "average": 0.0105799774,
+            "quartile_1": 0.009624839,
+            "median": 0.0100497461,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.012537951,
+            "average": 0.0111994557,
+            "quartile_1": 0.0099368264,
+            "median": 0.0115229798,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0115134475,
+            "average": 0.0104221026,
+            "quartile_1": 0.0090230432,
+            "median": 0.010366217,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0115779261,
+            "average": 0.010999769,
+            "quartile_1": 0.0098793538,
+            "median": 0.0107885387,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0133964734,
+            "average": 0.0123613405,
+            "quartile_1": 0.0112058417,
+            "median": 0.0125417511,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0121212965,
+            "average": 0.0115586165,
+            "quartile_1": 0.0109231671,
+            "median": 0.0112322034,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0121497487,
+            "average": 0.0115105386,
+            "quartile_1": 0.0108734701,
+            "median": 0.0113720107,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0125373113,
+            "average": 0.0115630497,
+            "quartile_1": 0.0108677067,
+            "median": 0.011834909,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0120594233,
+            "average": 0.011215008,
+            "quartile_1": 0.0102431982,
+            "median": 0.0112176317,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0113853646,
+            "average": 0.0105170807,
+            "quartile_1": 0.0096624846,
+            "median": 0.0108030638,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0108748718,
+            "average": 0.0096096365,
+            "quartile_1": 0.0079585057,
+            "median": 0.0100134979,
+            "time": "2017-12"
+          }
+        ],
+        "id": 24
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.015555096,
+            "average": 0.0147133865,
+            "quartile_1": 0.0132624428,
+            "median": 0.0143983346,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0151332602,
+            "average": 0.0145312888,
+            "quartile_1": 0.0136166117,
+            "median": 0.0144801053,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0153498959,
+            "average": 0.014803969,
+            "quartile_1": 0.0139134127,
+            "median": 0.0147908348,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0153782769,
+            "average": 0.0146809111,
+            "quartile_1": 0.0139274642,
+            "median": 0.0144509019,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0166436135,
+            "average": 0.0162520394,
+            "quartile_1": 0.0145468879,
+            "median": 0.0157821959,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0189134151,
+            "average": 0.0190469694,
+            "quartile_1": 0.0168114496,
+            "median": 0.0172597707,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0189573918,
+            "average": 0.0184734615,
+            "quartile_1": 0.0166427762,
+            "median": 0.0172968057,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0184943182,
+            "average": 0.0184025961,
+            "quartile_1": 0.0165225498,
+            "median": 0.0171926743,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.017938252,
+            "average": 0.0171841054,
+            "quartile_1": 0.0163366576,
+            "median": 0.0172281675,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0164254858,
+            "average": 0.0160967369,
+            "quartile_1": 0.0155707579,
+            "median": 0.0159848461,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0156579234,
+            "average": 0.0150735837,
+            "quartile_1": 0.0144601896,
+            "median": 0.0150824723,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0156223944,
+            "average": 0.0146839861,
+            "quartile_1": 0.0136757377,
+            "median": 0.0144680652,
+            "time": "2017-12"
+          }
+        ],
+        "id": 25
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0107743383,
+            "average": 0.0094855305,
+            "quartile_1": 0.0084099638,
+            "median": 0.0094121611,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0089377535,
+            "average": 0.0089550783,
+            "quartile_1": 0.0077448682,
+            "median": 0.0083875611,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0103391247,
+            "average": 0.0093573831,
+            "quartile_1": 0.0079055182,
+            "median": 0.0088292751,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0104894589,
+            "average": 0.0094056964,
+            "quartile_1": 0.0075777928,
+            "median": 0.0086129639,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0100089602,
+            "average": 0.0095334118,
+            "quartile_1": 0.0080072893,
+            "median": 0.0088822532,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0088163275,
+            "average": 0.008555236,
+            "quartile_1": 0.007495472,
+            "median": 0.0078999396,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0078908963,
+            "average": 0.007058152,
+            "quartile_1": 0.0064246025,
+            "median": 0.0067746498,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0090813174,
+            "average": 0.0092363692,
+            "quartile_1": 0.0071899108,
+            "median": 0.0079528445,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0086130442,
+            "average": 0.0088316574,
+            "quartile_1": 0.0073487497,
+            "median": 0.00808885,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0113855575,
+            "average": 0.0100752848,
+            "quartile_1": 0.0075303697,
+            "median": 0.0094393535,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0105865841,
+            "average": 0.0096187691,
+            "quartile_1": 0.0077720742,
+            "median": 0.0091833715,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0094124212,
+            "average": 0.0089875392,
+            "quartile_1": 0.0072948136,
+            "median": 0.0078425073,
+            "time": "2017-12"
+          }
+        ],
+        "id": 26
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0197198324,
+            "average": 0.0185011488,
+            "quartile_1": 0.0158292032,
+            "median": 0.0178701454,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0221222403,
+            "average": 0.0192553681,
+            "quartile_1": 0.0166852307,
+            "median": 0.0185585964,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0225594853,
+            "average": 0.0208835563,
+            "quartile_1": 0.0162339271,
+            "median": 0.0172660974,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0191953898,
+            "average": 0.0202874811,
+            "quartile_1": 0.0154687595,
+            "median": 0.0170858543,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0221239593,
+            "average": 0.0200340531,
+            "quartile_1": 0.0153784369,
+            "median": 0.0175093032,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.022570404,
+            "average": 0.0215696225,
+            "quartile_1": 0.0169278018,
+            "median": 0.01841509,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0228959052,
+            "average": 0.0215764247,
+            "quartile_1": 0.0176800026,
+            "median": 0.0197663521,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0204953352,
+            "average": 0.0201511995,
+            "quartile_1": 0.0168104908,
+            "median": 0.0184107456,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0211655922,
+            "average": 0.019267194,
+            "quartile_1": 0.0166708326,
+            "median": 0.0184733028,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0222571137,
+            "average": 0.0202875168,
+            "quartile_1": 0.0170780398,
+            "median": 0.0199494977,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0240615528,
+            "average": 0.0209345035,
+            "quartile_1": 0.0160162595,
+            "median": 0.0195502411,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0297544174,
+            "average": 0.024565221,
+            "quartile_1": 0.0192254641,
+            "median": 0.0223463814,
+            "time": "2017-12"
+          }
+        ],
+        "id": 27
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0127592171,
+            "average": 0.0113688782,
+            "quartile_1": 0.0104122316,
+            "median": 0.0110209617,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0120249144,
+            "average": 0.0116966578,
+            "quartile_1": 0.0101934678,
+            "median": 0.0112321663,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0133879072,
+            "average": 0.0122121975,
+            "quartile_1": 0.0106906685,
+            "median": 0.0115384303,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0126864068,
+            "average": 0.0115517057,
+            "quartile_1": 0.010606856,
+            "median": 0.0112962494,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0132709975,
+            "average": 0.012229126,
+            "quartile_1": 0.011330516,
+            "median": 0.0121364554,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.012890623,
+            "average": 0.0123272031,
+            "quartile_1": 0.0114616213,
+            "median": 0.0123035268,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0118683344,
+            "average": 0.0115501534,
+            "quartile_1": 0.0108728382,
+            "median": 0.0113273336,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0136106151,
+            "average": 0.012942662,
+            "quartile_1": 0.0119189404,
+            "median": 0.0125789334,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0161136129,
+            "average": 0.0141285549,
+            "quartile_1": 0.0114681732,
+            "median": 0.0135573363,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0137318454,
+            "average": 0.012643229,
+            "quartile_1": 0.0116348716,
+            "median": 0.0122685351,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0133115377,
+            "average": 0.0119602284,
+            "quartile_1": 0.0106123093,
+            "median": 0.0114583283,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0124782951,
+            "average": 0.0112938236,
+            "quartile_1": 0.0097791141,
+            "median": 0.0114234143,
+            "time": "2017-12"
+          }
+        ],
+        "id": 28
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0119750185,
+            "average": 0.0110612691,
+            "quartile_1": 0.0100804985,
+            "median": 0.0109395868,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0119312105,
+            "average": 0.0116547548,
+            "quartile_1": 0.010405655,
+            "median": 0.0110428327,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0122071609,
+            "average": 0.0112465505,
+            "quartile_1": 0.010447936,
+            "median": 0.0109812519,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0117943792,
+            "average": 0.0111712372,
+            "quartile_1": 0.0103495014,
+            "median": 0.0110606863,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0124716073,
+            "average": 0.0118802378,
+            "quartile_1": 0.0111127824,
+            "median": 0.0117116088,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0144486287,
+            "average": 0.0138827266,
+            "quartile_1": 0.013348496,
+            "median": 0.0138104478,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0150903668,
+            "average": 0.0144028646,
+            "quartile_1": 0.0134883711,
+            "median": 0.0141325516,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0158863768,
+            "average": 0.0151051096,
+            "quartile_1": 0.0137987686,
+            "median": 0.0146622586,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0152427999,
+            "average": 0.0146457604,
+            "quartile_1": 0.013866214,
+            "median": 0.0144743099,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.013976457,
+            "average": 0.0133650076,
+            "quartile_1": 0.0125297311,
+            "median": 0.0134926856,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0117407149,
+            "average": 0.0112813625,
+            "quartile_1": 0.0105090137,
+            "median": 0.0110656366,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0121643646,
+            "average": 0.0115590683,
+            "quartile_1": 0.0109156559,
+            "median": 0.0113371954,
+            "time": "2017-12"
+          }
+        ],
+        "id": 29
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0148798826,
+            "average": 0.0142297627,
+            "quartile_1": 0.0131599618,
+            "median": 0.0141630167,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0141397724,
+            "average": 0.0134096891,
+            "quartile_1": 0.0128370423,
+            "median": 0.0133098685,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0142407913,
+            "average": 0.0138872175,
+            "quartile_1": 0.0131864729,
+            "median": 0.0137443723,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0151207516,
+            "average": 0.014171859,
+            "quartile_1": 0.0131306862,
+            "median": 0.0140273119,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0159544088,
+            "average": 0.0152207883,
+            "quartile_1": 0.0143446485,
+            "median": 0.0145872003,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0183810311,
+            "average": 0.0175937397,
+            "quartile_1": 0.0152210794,
+            "median": 0.0160548226,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0175034678,
+            "average": 0.0169243214,
+            "quartile_1": 0.015383702,
+            "median": 0.0159619285,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.01677352,
+            "average": 0.0163662531,
+            "quartile_1": 0.0146878633,
+            "median": 0.0151929282,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0186632837,
+            "average": 0.0178655866,
+            "quartile_1": 0.0144690561,
+            "median": 0.0154094951,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0145741412,
+            "average": 0.0141737301,
+            "quartile_1": 0.0135106802,
+            "median": 0.0140266715,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0145355414,
+            "average": 0.0139254866,
+            "quartile_1": 0.0131533491,
+            "median": 0.0139707549,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0142060327,
+            "average": 0.0135327879,
+            "quartile_1": 0.0129596756,
+            "median": 0.0136592086,
+            "time": "2017-12"
+          }
+        ],
+        "id": 30
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0359984314,
+            "average": 0.0340793767,
+            "quartile_1": 0.0327191975,
+            "median": 0.0341400642,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0362511157,
+            "average": 0.0352683405,
+            "quartile_1": 0.0341746085,
+            "median": 0.0356185452,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.040191171,
+            "average": 0.0393413135,
+            "quartile_1": 0.0346265664,
+            "median": 0.0370663929,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0376950133,
+            "average": 0.0365592901,
+            "quartile_1": 0.0347241103,
+            "median": 0.0360729485,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.041833197,
+            "average": 0.0397484484,
+            "quartile_1": 0.0378433674,
+            "median": 0.039435376,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.043700827,
+            "average": 0.0420969762,
+            "quartile_1": 0.0397588224,
+            "median": 0.0414274581,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0415283913,
+            "average": 0.0410329313,
+            "quartile_1": 0.0390344288,
+            "median": 0.0404062494,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0409313414,
+            "average": 0.0400208208,
+            "quartile_1": 0.0383547352,
+            "median": 0.0390575335,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0398927532,
+            "average": 0.0393188225,
+            "quartile_1": 0.0378926494,
+            "median": 0.0391655264,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0387413368,
+            "average": 0.0377585054,
+            "quartile_1": 0.0350537957,
+            "median": 0.0369830528,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0355154194,
+            "average": 0.0347338259,
+            "quartile_1": 0.033183774,
+            "median": 0.0347509573,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0346865872,
+            "average": 0.0330758004,
+            "quartile_1": 0.0311923404,
+            "median": 0.0335623572,
+            "time": "2017-12"
+          }
+        ],
+        "id": 31
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0165546672,
+            "average": 0.0152395512,
+            "quartile_1": 0.0140224968,
+            "median": 0.0146744585,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0149931464,
+            "average": 0.0148992247,
+            "quartile_1": 0.0141644173,
+            "median": 0.0146238785,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0154569569,
+            "average": 0.014979835,
+            "quartile_1": 0.0145313691,
+            "median": 0.0148804333,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0157884952,
+            "average": 0.0151793184,
+            "quartile_1": 0.0140526414,
+            "median": 0.0150908369,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0183069164,
+            "average": 0.0177214064,
+            "quartile_1": 0.0166490319,
+            "median": 0.0170146224,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0230387219,
+            "average": 0.020545953,
+            "quartile_1": 0.0189107692,
+            "median": 0.0201176818,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0220579644,
+            "average": 0.0223914902,
+            "quartile_1": 0.0189487285,
+            "median": 0.0206648952,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0203758045,
+            "average": 0.0192651859,
+            "quartile_1": 0.0180966475,
+            "median": 0.0188696117,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0206130836,
+            "average": 0.0196502872,
+            "quartile_1": 0.0177495913,
+            "median": 0.0190003776,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0184625701,
+            "average": 0.0177943403,
+            "quartile_1": 0.0168704196,
+            "median": 0.0177779128,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0173567199,
+            "average": 0.0169582423,
+            "quartile_1": 0.0163383019,
+            "median": 0.0168292113,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0181775992,
+            "average": 0.0173336521,
+            "quartile_1": 0.0166159796,
+            "median": 0.0173206049,
+            "time": "2017-12"
+          }
+        ],
+        "id": 32
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0128368012,
+            "average": 0.0126776079,
+            "quartile_1": 0.011397244,
+            "median": 0.011783519,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0125158368,
+            "average": 0.011949178,
+            "quartile_1": 0.011308816,
+            "median": 0.0118301105,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0124854512,
+            "average": 0.0122033593,
+            "quartile_1": 0.011755542,
+            "median": 0.012181484,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0131558691,
+            "average": 0.0126416084,
+            "quartile_1": 0.0119775646,
+            "median": 0.012536832,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0159050051,
+            "average": 0.0147823986,
+            "quartile_1": 0.0137000173,
+            "median": 0.0144343035,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.019119667,
+            "average": 0.0183810414,
+            "quartile_1": 0.0163151602,
+            "median": 0.0177918424,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0213331027,
+            "average": 0.0197945875,
+            "quartile_1": 0.0165736939,
+            "median": 0.0184079954,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0180998639,
+            "average": 0.0177061248,
+            "quartile_1": 0.0158431533,
+            "median": 0.0169149122,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0175182002,
+            "average": 0.0171395594,
+            "quartile_1": 0.0154855673,
+            "median": 0.0162190995,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0149325972,
+            "average": 0.0141448131,
+            "quartile_1": 0.013263529,
+            "median": 0.0138656515,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0135391586,
+            "average": 0.0130107991,
+            "quartile_1": 0.0123151926,
+            "median": 0.0130812889,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0132704688,
+            "average": 0.0129500225,
+            "quartile_1": 0.0124726463,
+            "median": 0.0130653992,
+            "time": "2017-12"
+          }
+        ],
+        "id": 33
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0202114199,
+            "average": 0.0187893545,
+            "quartile_1": 0.0175744537,
+            "median": 0.0186818617,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0203865875,
+            "average": 0.0190912143,
+            "quartile_1": 0.01721777,
+            "median": 0.0193647667,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.020823281,
+            "average": 0.0191322505,
+            "quartile_1": 0.0170965839,
+            "median": 0.0184560625,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0201739512,
+            "average": 0.0189058678,
+            "quartile_1": 0.0171170969,
+            "median": 0.0189153777,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0221044998,
+            "average": 0.0209701923,
+            "quartile_1": 0.0193111265,
+            "median": 0.0197314923,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0234291808,
+            "average": 0.0218856401,
+            "quartile_1": 0.0201863158,
+            "median": 0.021024729,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0230578639,
+            "average": 0.0217777299,
+            "quartile_1": 0.0200279798,
+            "median": 0.0214788368,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0221493653,
+            "average": 0.0209631012,
+            "quartile_1": 0.0195498645,
+            "median": 0.0208245456,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0217184205,
+            "average": 0.0212945397,
+            "quartile_1": 0.0190914844,
+            "median": 0.0204846107,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0190065289,
+            "average": 0.0185480383,
+            "quartile_1": 0.0173178824,
+            "median": 0.0183207956,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0216860719,
+            "average": 0.0193877234,
+            "quartile_1": 0.0164055828,
+            "median": 0.0184037189,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0184028274,
+            "average": 0.017574339,
+            "quartile_1": 0.0163836543,
+            "median": 0.017255944,
+            "time": "2017-12"
+          }
+        ],
+        "id": 34
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0127230098,
+            "average": 0.0124789215,
+            "quartile_1": 0.011130958,
+            "median": 0.0117829114,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0129469671,
+            "average": 0.0119950144,
+            "quartile_1": 0.0107398928,
+            "median": 0.0119513857,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0123523617,
+            "average": 0.0114854605,
+            "quartile_1": 0.010600572,
+            "median": 0.0115418559,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0132911423,
+            "average": 0.013421645,
+            "quartile_1": 0.0111337159,
+            "median": 0.0124151867,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0136192759,
+            "average": 0.0130670935,
+            "quartile_1": 0.0124395903,
+            "median": 0.0129775803,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0166252703,
+            "average": 0.0156911244,
+            "quartile_1": 0.0147041381,
+            "median": 0.0155301913,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0160814283,
+            "average": 0.0154890437,
+            "quartile_1": 0.0143065501,
+            "median": 0.0152556111,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0173005194,
+            "average": 0.0171360719,
+            "quartile_1": 0.0154352593,
+            "median": 0.0160643068,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.015747121,
+            "average": 0.0150347228,
+            "quartile_1": 0.0140969892,
+            "median": 0.0148263421,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0147964973,
+            "average": 0.0138776883,
+            "quartile_1": 0.0127243423,
+            "median": 0.0140232211,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0126837311,
+            "average": 0.0118355945,
+            "quartile_1": 0.0110945577,
+            "median": 0.0115271214,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0124654705,
+            "average": 0.0122687468,
+            "quartile_1": 0.010976064,
+            "median": 0.0116295523,
+            "time": "2017-12"
+          }
+        ],
+        "id": 35
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0282098305,
+            "average": 0.0267826015,
+            "quartile_1": 0.0249056983,
+            "median": 0.0272754894,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0280345855,
+            "average": 0.0268289829,
+            "quartile_1": 0.0253660632,
+            "median": 0.0272608384,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.02903237,
+            "average": 0.0285149606,
+            "quartile_1": 0.0266961538,
+            "median": 0.0280666276,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0288821853,
+            "average": 0.0273041468,
+            "quartile_1": 0.0251876302,
+            "median": 0.0281691833,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0300570521,
+            "average": 0.0289760093,
+            "quartile_1": 0.0284139721,
+            "median": 0.0294175621,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.030882394,
+            "average": 0.0300273437,
+            "quartile_1": 0.0284156232,
+            "median": 0.030340052,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0303798931,
+            "average": 0.0295314182,
+            "quartile_1": 0.0285614715,
+            "median": 0.0295069751,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0296171958,
+            "average": 0.0287917326,
+            "quartile_1": 0.0278363615,
+            "median": 0.0288459104,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0296074624,
+            "average": 0.0289386281,
+            "quartile_1": 0.0283495393,
+            "median": 0.0289985954,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0292155904,
+            "average": 0.0279795696,
+            "quartile_1": 0.0259396248,
+            "median": 0.028431127,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.027289733,
+            "average": 0.0263216131,
+            "quartile_1": 0.0253049325,
+            "median": 0.0269515871,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0270920213,
+            "average": 0.0251964685,
+            "quartile_1": 0.0232549231,
+            "median": 0.0261150041,
+            "time": "2017-12"
+          }
+        ],
+        "id": 36
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0357894499,
+            "average": 0.0322420597,
+            "quartile_1": 0.0285907892,
+            "median": 0.031735166,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0347544556,
+            "average": 0.0333572925,
+            "quartile_1": 0.0279540786,
+            "median": 0.0315700617,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0390560247,
+            "average": 0.034554524,
+            "quartile_1": 0.0290554754,
+            "median": 0.0358368032,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0322683517,
+            "average": 0.0306695504,
+            "quartile_1": 0.0277455956,
+            "median": 0.03143364,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0314607947,
+            "average": 0.0295435448,
+            "quartile_1": 0.026852358,
+            "median": 0.0293270975,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0318416659,
+            "average": 0.0293826857,
+            "quartile_1": 0.0271189114,
+            "median": 0.0287247161,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0301187822,
+            "average": 0.0285549761,
+            "quartile_1": 0.026719026,
+            "median": 0.0290031387,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0297250534,
+            "average": 0.0283983056,
+            "quartile_1": 0.0269003507,
+            "median": 0.028508931,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0302035707,
+            "average": 0.0279540042,
+            "quartile_1": 0.0258198269,
+            "median": 0.0281337973,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0320753581,
+            "average": 0.0299864834,
+            "quartile_1": 0.028341871,
+            "median": 0.029841067,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.032199654,
+            "average": 0.0304242677,
+            "quartile_1": 0.0272653208,
+            "median": 0.0304207852,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0312072114,
+            "average": 0.0292233979,
+            "quartile_1": 0.0270481501,
+            "median": 0.0291468329,
+            "time": "2017-12"
+          }
+        ],
+        "id": 37
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0279103815,
+            "average": 0.0264879421,
+            "quartile_1": 0.0247024719,
+            "median": 0.0269675412,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0277585231,
+            "average": 0.0265392958,
+            "quartile_1": 0.0250268128,
+            "median": 0.0268588928,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.028648736,
+            "average": 0.0281906949,
+            "quartile_1": 0.0264316176,
+            "median": 0.0277641343,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0285955928,
+            "average": 0.0269930732,
+            "quartile_1": 0.0248939677,
+            "median": 0.0277912051,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0296806319,
+            "average": 0.0286067591,
+            "quartile_1": 0.0279801001,
+            "median": 0.0290879798,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0305731122,
+            "average": 0.0296201284,
+            "quartile_1": 0.0280837244,
+            "median": 0.029963545,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0300022545,
+            "average": 0.0291392185,
+            "quartile_1": 0.0280637216,
+            "median": 0.0291743218,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0292274257,
+            "average": 0.0283799584,
+            "quartile_1": 0.0274934649,
+            "median": 0.0285202092,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0291823001,
+            "average": 0.02854154,
+            "quartile_1": 0.0278412446,
+            "median": 0.0284894954,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0287901847,
+            "average": 0.027585652,
+            "quartile_1": 0.0257028051,
+            "median": 0.0280437343,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0271570439,
+            "average": 0.0261147792,
+            "quartile_1": 0.0250278121,
+            "median": 0.0267094297,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.026902341,
+            "average": 0.0251480993,
+            "quartile_1": 0.0231587251,
+            "median": 0.0259310949,
+            "time": "2017-12"
+          }
+        ],
+        "id": 38
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0205353355,
+            "average": 0.0202173114,
+            "quartile_1": 0.019096811,
+            "median": 0.0197183695,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0206286187,
+            "average": 0.0201491414,
+            "quartile_1": 0.0193427027,
+            "median": 0.0197888692,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0213772152,
+            "average": 0.0209130451,
+            "quartile_1": 0.0201463437,
+            "median": 0.0204626396,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0217936816,
+            "average": 0.0206540628,
+            "quartile_1": 0.0196368662,
+            "median": 0.0204796532,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0228905885,
+            "average": 0.0225165225,
+            "quartile_1": 0.0208028364,
+            "median": 0.0220291678,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0270021182,
+            "average": 0.0249072174,
+            "quartile_1": 0.0220316518,
+            "median": 0.0231990177,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0272636789,
+            "average": 0.0252781133,
+            "quartile_1": 0.021810827,
+            "median": 0.0235895944,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0281012866,
+            "average": 0.0257946107,
+            "quartile_1": 0.021079395,
+            "median": 0.0239856903,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0226579066,
+            "average": 0.0217434944,
+            "quartile_1": 0.0209367163,
+            "median": 0.0215067574,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0219495041,
+            "average": 0.0210325426,
+            "quartile_1": 0.0204059963,
+            "median": 0.0207878886,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0204648255,
+            "average": 0.0197496822,
+            "quartile_1": 0.0190365228,
+            "median": 0.0199852881,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0208396712,
+            "average": 0.0196752725,
+            "quartile_1": 0.0190167728,
+            "median": 0.0195452179,
+            "time": "2017-12"
+          }
+        ],
+        "id": 39
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0426203479,
+            "average": 0.0398319776,
+            "quartile_1": 0.0359967646,
+            "median": 0.0411556624,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0448019306,
+            "average": 0.0416534275,
+            "quartile_1": 0.0369516221,
+            "median": 0.0432785214,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0473656533,
+            "average": 0.0439105781,
+            "quartile_1": 0.0400882312,
+            "median": 0.0430975394,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0435224772,
+            "average": 0.0404780474,
+            "quartile_1": 0.0357580028,
+            "median": 0.0423934383,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0450392542,
+            "average": 0.041960067,
+            "quartile_1": 0.0394903084,
+            "median": 0.0435186769,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0444039556,
+            "average": 0.0422416455,
+            "quartile_1": 0.0386103227,
+            "median": 0.0432612188,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0449887917,
+            "average": 0.0420131771,
+            "quartile_1": 0.0382058066,
+            "median": 0.0435400836,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0440326514,
+            "average": 0.0413501936,
+            "quartile_1": 0.039111668,
+            "median": 0.0420842823,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0444672695,
+            "average": 0.0424085617,
+            "quartile_1": 0.0391434904,
+            "median": 0.0435697458,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0446175198,
+            "average": 0.0418959543,
+            "quartile_1": 0.0385073204,
+            "median": 0.0428022893,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0432272379,
+            "average": 0.0403146629,
+            "quartile_1": 0.0387491475,
+            "median": 0.0414522433,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0422412837,
+            "average": 0.037463397,
+            "quartile_1": 0.0331167604,
+            "median": 0.0397293614,
+            "time": "2017-12"
+          }
+        ],
+        "id": 40
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0181602226,
+            "average": 0.0170242014,
+            "quartile_1": 0.0154788425,
+            "median": 0.017382843,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.018806085,
+            "average": 0.0171145145,
+            "quartile_1": 0.014657401,
+            "median": 0.0168191107,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0200484384,
+            "average": 0.0179144887,
+            "quartile_1": 0.0157201251,
+            "median": 0.0177851642,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0189727503,
+            "average": 0.0175515211,
+            "quartile_1": 0.0158822868,
+            "median": 0.0175566017,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0238249448,
+            "average": 0.0218499025,
+            "quartile_1": 0.0204266009,
+            "median": 0.0213678658,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0245185004,
+            "average": 0.0238728595,
+            "quartile_1": 0.0227910679,
+            "median": 0.023783996,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0239291056,
+            "average": 0.0235535797,
+            "quartile_1": 0.0220820491,
+            "median": 0.0228351048,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0228072032,
+            "average": 0.0220301361,
+            "quartile_1": 0.0210335443,
+            "median": 0.0218827823,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0239666451,
+            "average": 0.0224454741,
+            "quartile_1": 0.0204172749,
+            "median": 0.0217796409,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.022266915,
+            "average": 0.0205003417,
+            "quartile_1": 0.0181960108,
+            "median": 0.0203565698,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0208336352,
+            "average": 0.0190519249,
+            "quartile_1": 0.0170962944,
+            "median": 0.0184085288,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.018973249,
+            "average": 0.0178271347,
+            "quartile_1": 0.0162333813,
+            "median": 0.0182584552,
+            "time": "2017-12"
+          }
+        ],
+        "id": 41
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0125330987,
+            "average": 0.0121379322,
+            "quartile_1": 0.0115493827,
+            "median": 0.0121826288,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0122378065,
+            "average": 0.0118228279,
+            "quartile_1": 0.0112891904,
+            "median": 0.0117389713,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0128896283,
+            "average": 0.0123010325,
+            "quartile_1": 0.0118356124,
+            "median": 0.0122289289,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0131164228,
+            "average": 0.0126779346,
+            "quartile_1": 0.0120489605,
+            "median": 0.012709708,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0154363509,
+            "average": 0.0148618633,
+            "quartile_1": 0.013455257,
+            "median": 0.0138256676,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0165754588,
+            "average": 0.0171442059,
+            "quartile_1": 0.014720734,
+            "median": 0.0154430195,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0182903881,
+            "average": 0.0173956976,
+            "quartile_1": 0.0152042043,
+            "median": 0.0159060936,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0162359054,
+            "average": 0.0160831761,
+            "quartile_1": 0.0136013907,
+            "median": 0.0146455899,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0151691278,
+            "average": 0.0144865223,
+            "quartile_1": 0.0134957994,
+            "median": 0.0137957125,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.0136856488,
+            "average": 0.013139527,
+            "quartile_1": 0.0126258374,
+            "median": 0.0129522842,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0126260014,
+            "average": 0.0119992765,
+            "quartile_1": 0.0114758823,
+            "median": 0.0117861335,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0123766001,
+            "average": 0.0119310216,
+            "quartile_1": 0.0114041825,
+            "median": 0.0119793221,
+            "time": "2017-12"
+          }
+        ],
+        "id": 42
+      },
+      {
+        "values": [
+          {
+            "quartile_3": 0.0362483696,
+            "average": 0.033869693,
+            "quartile_1": 0.0311637599,
+            "median": 0.0324437291,
+            "time": "2017-01"
+          },
+          {
+            "quartile_3": 0.0340231623,
+            "average": 0.0328149243,
+            "quartile_1": 0.0306805686,
+            "median": 0.0320272058,
+            "time": "2017-02"
+          },
+          {
+            "quartile_3": 0.0374679236,
+            "average": 0.0347534744,
+            "quartile_1": 0.0319372077,
+            "median": 0.0346850825,
+            "time": "2017-03"
+          },
+          {
+            "quartile_3": 0.0402947057,
+            "average": 0.0392315218,
+            "quartile_1": 0.0378991372,
+            "median": 0.0389640252,
+            "time": "2017-04"
+          },
+          {
+            "quartile_3": 0.0449013398,
+            "average": 0.0418244607,
+            "quartile_1": 0.0393321482,
+            "median": 0.0409026211,
+            "time": "2017-05"
+          },
+          {
+            "quartile_3": 0.0501356522,
+            "average": 0.047451379,
+            "quartile_1": 0.0448851451,
+            "median": 0.0471554653,
+            "time": "2017-06"
+          },
+          {
+            "quartile_3": 0.0490589541,
+            "average": 0.0469896769,
+            "quartile_1": 0.0438243831,
+            "median": 0.0469346914,
+            "time": "2017-07"
+          },
+          {
+            "quartile_3": 0.0457861986,
+            "average": 0.0444068779,
+            "quartile_1": 0.0427910997,
+            "median": 0.0433275508,
+            "time": "2017-08"
+          },
+          {
+            "quartile_3": 0.0461866532,
+            "average": 0.0451839446,
+            "quartile_1": 0.0432834177,
+            "median": 0.0443591765,
+            "time": "2017-09"
+          },
+          {
+            "quartile_3": 0.045503469,
+            "average": 0.0425135124,
+            "quartile_1": 0.0397479762,
+            "median": 0.041702396,
+            "time": "2017-10"
+          },
+          {
+            "quartile_3": 0.0374920153,
+            "average": 0.0359509628,
+            "quartile_1": 0.0337969002,
+            "median": 0.0353977189,
+            "time": "2017-11"
+          },
+          {
+            "quartile_3": 0.0367578163,
+            "average": 0.0353471014,
+            "quartile_1": 0.0330458608,
+            "median": 0.0345546659,
+            "time": "2017-12"
+          }
+        ],
+        "id": 43
+      }
+    ]
+  },
+  "dictionary": {
+    "entities": [
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 1,
+        "name": "Turkey"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 2,
+        "name": "Italy"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 3,
+        "name": "Czech Republic"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 4,
+        "name": "Serbia and Montenegro"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 5,
+        "name": "Lithuania"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 6,
+        "name": "Malta"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 7,
+        "name": "France"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 8,
+        "name": "Switzerland"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 9,
+        "name": "Netherlands"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 10,
+        "name": "Slovakia"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 11,
+        "name": "Ireland"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 12,
+        "name": "Norway"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 13,
+        "name": "The former Yugoslav Republic of Macedonia"
+      },
+      {
+        "code": null,
+        "type": "Area (FIR)",
+        "id": 14,
+        "name": "SES Area (RP1)"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 15,
+        "name": "Slovenia"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 16,
+        "name": "Germany"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 17,
+        "name": "Bosnia and Herzegovina"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 18,
+        "name": "Armenia"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 19,
+        "name": "Belgium"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 20,
+        "name": "Spain"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 21,
+        "name": "Ukraine"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 22,
+        "name": "Georgia"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 23,
+        "name": "Portugal (Continental)"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 24,
+        "name": "Denmark"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 25,
+        "name": "Poland"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 26,
+        "name": "Finland"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 27,
+        "name": "Moldova"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 28,
+        "name": "Sweden"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 29,
+        "name": "Latvia"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 30,
+        "name": "Croatia"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 31,
+        "name": "Spain (Continental)"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 32,
+        "name": "Bulgaria"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 33,
+        "name": "Romania"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 34,
+        "name": "Albania"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 35,
+        "name": "Estonia"
+      },
+      {
+        "code": null,
+        "type": "Area (FIR)",
+        "id": 36,
+        "name": "SES Area (RP2)"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 37,
+        "name": "Spain (Canarias)"
+      },
+      {
+        "code": null,
+        "type": "Area (FIR)",
+        "id": 38,
+        "name": "EUROCONTROL Area (PRR)"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 39,
+        "name": "Austria"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 40,
+        "name": "United Kingdom (Continental)"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 41,
+        "name": "Greece"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 42,
+        "name": "Hungary"
+      },
+      {
+        "code": null,
+        "type": "State (FIR)",
+        "id": 43,
+        "name": "Cyprus"
+      }
+    ],
+    "kpa": [
+      {
+        "ind_id": 1,
+        "value": "Traffic",
+        "kpi": [
+          {
+            "ind_id": 12,
+            "value": "IFR Flights"
+          }
+        ]
+      },
+      {
+        "ind_id": 2,
+        "value": "Capacity",
+        "kpi": [
+          {
+            "ind_id": 13,
+            "value": "Airport ATFM delay",
+            "json_file": "time_series_airport_atfm_delay.json"
+          },
+          {
+            "ind_id": 14,
+            "value": "En-route ATFM delay"
+          }
+        ]
+      },
+      {
+        "ind_id": 3,
+        "value": "Environment",
+        "kpi": [
+          {
+            "ind_id": 15,
+            "value": "HFE (Actual)",
+            "json_file": "time_series_hfe_actual.json"
+          },
+          {
+            "ind_id": 16,
+            "value": "HFE (Planned)",
+            "json_file": "time_series_hfe_planned.json"
+          },
+          {
+            "ind_id": 17,
+            "value": "VFE Median CCO Altitude"
+          },
+          {
+            "ind_id": 18,
+            "value": "VFE Median CDO Altitude"
+          },
+          {
+            "ind_id": 19,
+            "value": "VFE Average Time Flight Level Climb"
+          },
+          {
+            "ind_id": 20,
+            "value": "VFE Average Time Flight Level Descend"
+          },
+          {
+            "ind_id": 21,
+            "value": "Additional Taxi-out Time"
+          },
+          {
+            "ind_id": 22,
+            "value": "Additional Time in Terminal Airspace"
+          }
+        ]
+      }
+    ]
+  }
+}

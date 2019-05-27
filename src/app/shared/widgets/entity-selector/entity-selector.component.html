@@ -1,0 +1,11 @@
+<mat-form-field>
+
+  <mat-select placeholder="{{entityPlaceholder}}" [formControl]="entitiesControl" (selectionChange)="onChange($event)"
+    [multiple]="options.multiple">
+    <mat-option *ngIf="allowNone">None</mat-option>
+    <mat-option *ngFor="let entity of entities" [value]="entity.id">{{entity.name}}</mat-option>
+  </mat-select>
+  <mat-error *ngIf="entitiesControl.invalid">
+    Min selection: 3 items
+  </mat-error>
+</mat-form-field>

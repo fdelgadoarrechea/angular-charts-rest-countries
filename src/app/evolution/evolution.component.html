@@ -1,0 +1,81 @@
+<div class="content" fxLayout="row" fxLayout.lt-md="column" fxFlexFill>
+  <div fxFlex="22" class="sec1">
+    <div class="sidebar">
+      <app-side-nav></app-side-nav>
+    </div>
+    <div class="sidebar">
+      <app-my-selection></app-my-selection>
+    </div>
+  </div>
+  <div fxFlex="72" class="main">
+    <h1>
+      {{ title }}
+      <mat-icon
+        class="white-icon"
+        [matTooltip]="description"
+        matTooltipPosition="right"
+        >info</mat-icon
+      >
+    </h1>
+
+    <div class="content evolution">
+      <div class="selectors">
+        <currency-selector
+          selectorPlaceholder="Base"
+          [allCurrencies]="allCurrencies"
+          [defaultCurrency]="base"
+          (currencyChange)="changeBase($event)"
+          *ngIf="ready"
+        ></currency-selector>
+      </div>
+
+      <div class="selectors">
+        <currency-selector
+          selectorPlaceholder="Currency 1"
+          [allCurrencies]="allCurrencies"
+          [defaultCurrency]="currency1"
+          (currencyChange)="changeCurrency($event, 1)"
+          *ngIf="ready"
+        ></currency-selector>
+        <currency-selector
+          selectorPlaceholder="Currency 2"
+          [allCurrencies]="allCurrencies"
+          [defaultCurrency]="currency2"
+          (currencyChange)="changeCurrency($event, 2)"
+          *ngIf="ready"
+        ></currency-selector>
+
+        <app-date-picker
+          [datePlaceholder]="datePlaceholder"
+          [date]="startDate"
+        ></app-date-picker>
+        <app-date-picker
+          [datePlaceholder]="datePlaceholder"
+          [date]="endDate"
+        ></app-date-picker>
+      </div>
+
+      <app-evolution-legend
+        [legend]="legend"
+        [currency1]="currency1"
+        [currency2]="currency2"
+        *ngIf="ready"
+      ></app-evolution-legend>
+
+      <div class="chart_container">
+        <div class="txt_legend yaxislegend" *ngIf="ready">
+          <p>{{ axis_y.title }}</p>
+        </div>
+        <app-evolution-chart
+          [evolutionData1]="temporalEvolutionToPlot1"
+          [evolutionData2]="temporalEvolutionToPlot2"
+          [country1]="currency1"
+          [country2]="currency2"
+        ></app-evolution-chart>
+        <div class="txt_legend xaxislegend" *ngIf="ready">
+          <p>{{ axis_x.title }} {{ yearAxis }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

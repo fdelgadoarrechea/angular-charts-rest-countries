@@ -1,0 +1,11 @@
+<mat-form-field>
+  <mat-select
+    [placeholder]="selectorPlaceholder"
+    [formControl]="currenciesControl"
+    (selectionChange)="onChange($event)"
+  >
+    <mat-option *ngFor="let currency of allCurrencies" [value]="currency">{{
+      currency
+    }}</mat-option>
+  </mat-select>
+</mat-form-field>

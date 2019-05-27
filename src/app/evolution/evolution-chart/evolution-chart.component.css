@@ -1,0 +1,12 @@
+:host {
+  margin-top: 20px;
+}
+::ng-deep .grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+::ng-deep .grid path {
+  stroke-width: 0;
+}

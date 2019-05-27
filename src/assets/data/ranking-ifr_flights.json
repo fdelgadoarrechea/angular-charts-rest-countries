@@ -1,0 +1,673 @@
+{
+  "type": "ranking",
+  "controls": [
+    {
+      "control_type": "hierarchical-selector",
+      "selection_type": "single",
+      "name": "KPA(s) / KPI(s)",
+      "enabled": true,
+      "values": [
+        {
+          "ind_id": 1,
+          "kpi": [
+            {
+              "ind_id": 12,
+              "selected": true
+            }
+          ]
+        },
+        {
+          "ind_id": 2,
+          "kpi": [
+            {
+              "ind_id": 13,
+              "selected": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "control_type": "date-picker",
+      "selection_type": "interval",
+      "name": "Period",
+      "enabled": false,
+      "value-from": "2017-01-01",
+      "value-to": "2017-12-31"
+    },
+    {
+      "control_type": "selector",
+      "selection_type": "multiple",
+      "name": "Entity selection",
+      "enabled": false,
+      "values": [
+        {
+          "selection_name": "All",
+          "selected": true
+        }
+      ]
+    }
+  ],
+  "chart": {
+    "title": "IFR flights ranking",
+    "description": "Ranking of the entities per number of crossing IFR flights.",
+    "datachart": [
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.0
+          },
+          {
+            "ind_id": 13,
+            "value": 1415577
+          }
+        ],
+        "name": "Turkey",
+        "icon": "assets/imgs/turkey.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.008000398759812179
+          },
+          {
+            "ind_id": 13,
+            "value": 1785536
+          }
+        ],
+        "name": "Italy",
+        "icon": "assets/imgs/italy.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.04606506644729755
+          },
+          {
+            "ind_id": 13,
+            "value": 816888
+          }
+        ],
+        "name": "CzechRepublic",
+        "icon": "assets/imgs/czechrepublic.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.16498883991993787
+          },
+          {
+            "ind_id": 13,
+            "value": 2534032
+          }
+        ],
+        "name": "UKContinental",
+        "icon": "assets/imgs/ukcontinental.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.036083648388137324
+          },
+          {
+            "ind_id": 13,
+            "value": 654119
+          }
+        ],
+        "name": "SerbiaandMontenegro",
+        "icon": "assets/imgs/serbiaandmontenegro.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.0
+          },
+          {
+            "ind_id": 13,
+            "value": 275464
+          }
+        ],
+        "name": "Lithuania",
+        "icon": "assets/imgs/lithuania.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.0024320371123670386
+          },
+          {
+            "ind_id": 13,
+            "value": 115541
+          }
+        ],
+        "name": "Malta",
+        "icon": "assets/imgs/malta.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.9578319145043293
+          },
+          {
+            "ind_id": 13,
+            "value": 3241053
+          }
+        ],
+        "name": "France",
+        "icon": "assets/imgs/france.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.2954456264196719
+          },
+          {
+            "ind_id": 13,
+            "value": 1286829
+          }
+        ],
+        "name": "Netherlands",
+        "icon": "assets/imgs/netherlands.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.03282900870105656
+          },
+          {
+            "ind_id": 13,
+            "value": 514880
+          }
+        ],
+        "name": "Slovakia",
+        "icon": "assets/imgs/slovakia.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.0011150139702501614
+          },
+          {
+            "ind_id": 13,
+            "value": 537213
+          }
+        ],
+        "name": "Ireland",
+        "icon": "assets/imgs/ireland.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.020601304463363685
+          },
+          {
+            "ind_id": 13,
+            "value": 594574
+          }
+        ],
+        "name": "Norway",
+        "icon": "assets/imgs/norway.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.029401795315349012
+          },
+          {
+            "ind_id": 13,
+            "value": 171112
+          }
+        ],
+        "name": "TheformerYugoslavRepublicofMacedonia",
+        "icon": "assets/imgs/fyrom.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.0
+          },
+          {
+            "ind_id": 13,
+            "value": 162432
+          }
+        ],
+        "name": "PortugalSantaMaria",
+        "icon": "assets/imgs/portugalsantamaria.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.25796847793726263
+          },
+          {
+            "ind_id": 13,
+            "value": 332529
+          }
+        ],
+        "name": "SpainCanarias",
+        "icon": "assets/imgs/spaincanarias.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.0029722880139311423
+          },
+          {
+            "ind_id": 13,
+            "value": 385898
+          }
+        ],
+        "name": "Slovenia",
+        "icon": "assets/imgs/slovenia.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.7448083298686914
+          },
+          {
+            "ind_id": 13,
+            "value": 3259115
+          }
+        ],
+        "name": "Germany",
+        "icon": "assets/imgs/germany.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.0
+          },
+          {
+            "ind_id": 13,
+            "value": 359314
+          }
+        ],
+        "name": "BosniaandHerzegovina",
+        "icon": "assets/imgs/bosniaandherzegovina.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.0
+          },
+          {
+            "ind_id": 13,
+            "value": 54525
+          }
+        ],
+        "name": "Armenia",
+        "icon": "assets/imgs/armenia.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.5936028274866937
+          },
+          {
+            "ind_id": 13,
+            "value": 1239829
+          }
+        ],
+        "name": "Belgium",
+        "icon": "assets/imgs/belgium.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.34236465913196057
+          },
+          {
+            "ind_id": 13,
+            "value": 1879569
+          }
+        ],
+        "name": "SpainContinental",
+        "icon": "assets/imgs/spaincontinental.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.0
+          },
+          {
+            "ind_id": 13,
+            "value": 232023
+          }
+        ],
+        "name": "Ukraine",
+        "icon": "assets/imgs/ukraine.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.18831619384088435
+          },
+          {
+            "ind_id": 13,
+            "value": 612523
+          }
+        ],
+        "name": "PortugalContinental",
+        "icon": "assets/imgs/portugalcontinental.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.0
+          },
+          {
+            "ind_id": 13,
+            "value": 142266
+          }
+        ],
+        "name": "Georgia",
+        "icon": "assets/imgs/georgia.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.0
+          },
+          {
+            "ind_id": 13,
+            "value": 646675
+          }
+        ],
+        "name": "Denmark",
+        "icon": "assets/imgs/denmark.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.11056110606519326
+          },
+          {
+            "ind_id": 13,
+            "value": 792720
+          }
+        ],
+        "name": "Poland",
+        "icon": "assets/imgs/poland.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.00046843045331119396
+          },
+          {
+            "ind_id": 13,
+            "value": 262579
+          }
+        ],
+        "name": "Finland",
+        "icon": "assets/imgs/finland.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.0
+          },
+          {
+            "ind_id": 13,
+            "value": 50202
+          }
+        ],
+        "name": "Moldova",
+        "icon": "assets/imgs/moldova.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.047279502804989694
+          },
+          {
+            "ind_id": 13,
+            "value": 495902
+          }
+        ],
+        "name": "UKOceanic",
+        "icon": "assets/imgs/ukoceanic.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.025009308752453985
+          },
+          {
+            "ind_id": 13,
+            "value": 808379
+          }
+        ],
+        "name": "Sweden",
+        "icon": "assets/imgs/sweden.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.0018730332209010911
+          },
+          {
+            "ind_id": 13,
+            "value": 265345
+          }
+        ],
+        "name": "Latvia",
+        "icon": "assets/imgs/latvia.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.11894888092328304
+          },
+          {
+            "ind_id": 13,
+            "value": 586689
+          }
+        ],
+        "name": "Croatia",
+        "icon": "assets/imgs/croatia.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.21539050812018962
+          },
+          {
+            "ind_id": 13,
+            "value": 1109580
+          }
+        ],
+        "name": "Switzerland",
+        "icon": "assets/imgs/switzerland.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.0002872734051218933
+          },
+          {
+            "ind_id": 13,
+            "value": 783226
+          }
+        ],
+        "name": "Bulgaria",
+        "icon": "assets/imgs/bulgaria.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.011360227174839673
+          },
+          {
+            "ind_id": 13,
+            "value": 673314
+          }
+        ],
+        "name": "Romania",
+        "icon": "assets/imgs/romania.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.0004126221103557834
+          },
+          {
+            "ind_id": 13,
+            "value": 193882
+          }
+        ],
+        "name": "Albania",
+        "icon": "assets/imgs/albania.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.023231907894736843
+          },
+          {
+            "ind_id": 13,
+            "value": 214016
+          }
+        ],
+        "name": "Estonia",
+        "icon": "assets/imgs/estonia.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.9373093194091567
+          },
+          {
+            "ind_id": 13,
+            "value": 9847620
+          }
+        ],
+        "name": "SESArea(RP2)",
+        "icon": "assets/imgs/sesarea(rp2).png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.19896449584094136
+          },
+          {
+            "ind_id": 13,
+            "value": 1232250
+          }
+        ],
+        "name": "Austria",
+        "icon": "assets/imgs/austria.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.20518382579812566
+          },
+          {
+            "ind_id": 13,
+            "value": 745434
+          }
+        ],
+        "name": "Greece",
+        "icon": "assets/imgs/greece.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 0.012689636047177762
+          },
+          {
+            "ind_id": 13,
+            "value": 822167
+          }
+        ],
+        "name": "Hungary",
+        "icon": "assets/imgs/hungary.png"
+      },
+      {
+        "values": [
+          {
+            "ind_id": 12,
+            "value": 1.106522222840296
+          },
+          {
+            "ind_id": 13,
+            "value": 359540
+          }
+        ],
+        "name": "Cyprus",
+        "icon": "assets/imgs/cyprus.png"
+      }
+    ]
+  },
+  "dictionary": {
+    "kpa": [
+      {
+        "ind_id": 1,
+        "value": "Traffic",
+        "kpi": [
+          {
+            "ind_id": 12,
+            "value": "IFR flights",
+            "units": "-",
+            "json_file": "ranking-ifr_flights.json"
+          }
+        ]
+      },
+      {
+        "ind_id": 2,
+        "value": "Capacity (en-route)",
+        "kpi": [
+          {
+            "ind_id": 13,
+            "value": "En-route ATFM delay",
+            "units": "minutes-per-flight",
+            "json_file": "ranking-enroute_atfm_delay.json"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+<div #legend>
+  <div class="left">
+    <div>
+      <svg width="22" height="5">
+        <line x1="0" y1="0" x2="22" y2="0" stroke="#004481" stroke-width="5" />
+      </svg>
+      {{ currency1 }}
+    </div>
+    <div *ngIf="currency2">
+      <svg width="22" height="5">
+        <line x1="0" y1="0" x2="22" y2="0" stroke="#F7893B" stroke-width="5" />
+      </svg>
+      {{ currency2 }}
+    </div>
+  </div>
+  <div class="right">
+    <div>
+      <svg width="22" height="5">
+        <line x1="0" y1="0" x2="22" y2="0" stroke="gray" stroke-width="5" />
+      </svg>
+      {{ lgndtxt.median }}
+    </div>
+    <div>
+      <svg width="10" height="10">
+        <circle cx="5" cy="5" r="5" fill="gray" />
+      </svg>
+      {{ lgndtxt.average }}
+    </div>
+    <div>
+      <svg width="20" height="20">
+        <rect x="0" y="0" width="20" height="20" fill="gray" />
+      </svg>
+      {{ lgndtxt.quartile }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,2135 @@
+﻿{
+  "type": "scatterplot",
+  "controls": [
+    {
+      "control_type": "hierarchical-selector",
+      "selection_type": "single",
+      "name": "Select chart",
+      "enabled": true,
+      "values": [
+        {
+          "ind_id": 3,
+          "kpi": [
+            {
+              "ind_id": 23,
+              "selected": false,
+              "enabled": false
+            },
+            {
+              "ind_id": 24,
+              "selected": true,
+              "enabled": true
+            },
+            {
+              "ind_id": 25,
+              "selected": false,
+              "enabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "control_type": "selector",
+      "selection_type": "single",
+      "name": "Colour code",
+      "enabled": true,
+      "values": [
+        {
+          "selection_name": "Share of CCO Operations",
+          "selected": true
+        },
+        {
+          "selection_name": "State",
+          "selected": false
+        },
+        {
+          "selection_name": "Airport",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "control_type": "selector",
+      "selection_type": "single",
+      "name": "Temporal granularity",
+      "enabled": false,
+      "values": [
+        {
+          "selection_name": "Day",
+          "selected": false
+        },
+        {
+          "selection_name": "Month",
+          "selected": false
+        },
+        {
+          "selection_name": "Year",
+          "selected": false
+        },
+        {
+          "selection_name": "Range",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "control_type": "date-picker",
+      "selection_type": "interval",
+      "name": "Temporal interval",
+      "enabled": false,
+      "value-from": "2017-01-01",
+      "value-to": "2017-12-31"
+    },
+    {
+      "control_type": "selector",
+      "selection_type": "multiple",
+      "name": "Entity selection",
+      "enabled": true,
+      "values": [
+        {
+          "selected": false,
+          "id": 1
+        },
+        {
+          "selected": true,
+          "id": 2
+        },
+        {
+          "selected": true,
+          "id": 3
+        },
+        {
+          "selected": true,
+          "id": 4
+        },
+        {
+          "selected": true,
+          "id": 5
+        },
+        {
+          "selected": false,
+          "id": 6
+        },
+        {
+          "selected": false,
+          "id": 7
+        },
+        {
+          "selected": true,
+          "id": 8
+        },
+        {
+          "selected": true,
+          "id": 9
+        },
+        {
+          "selected": false,
+          "id": 10
+        },
+        {
+          "selected": false,
+          "id": 11
+        },
+        {
+          "selected": true,
+          "id": 12
+        },
+        {
+          "selected": true,
+          "id": 13
+        },
+        {
+          "selected": true,
+          "id": 14
+        },
+        {
+          "selected": false,
+          "id": 15
+        },
+        {
+          "selected": false,
+          "id": 16
+        },
+        {
+          "selected": false,
+          "id": 17
+        },
+        {
+          "selected": false,
+          "id": 18
+        },
+        {
+          "selected": true,
+          "id": 19
+        },
+        {
+          "selected": true,
+          "id": 20
+        },
+        {
+          "selected": false,
+          "id": 21
+        },
+        {
+          "selected": true,
+          "id": 22
+        },
+        {
+          "selected": false,
+          "id": 23
+        },
+        {
+          "selected": false,
+          "id": 24
+        },
+        {
+          "selected": true,
+          "id": 25
+        },
+        {
+          "selected": false,
+          "id": 26
+        },
+        {
+          "selected": false,
+          "id": 27
+        },
+        {
+          "selected": true,
+          "id": 28
+        },
+        {
+          "selected": true,
+          "id": 29
+        },
+        {
+          "selected": true,
+          "id": 30
+        },
+        {
+          "selected": false,
+          "id": 31
+        },
+        {
+          "selected": true,
+          "id": 32
+        },
+        {
+          "selected": false,
+          "id": 33
+        },
+        {
+          "selected": false,
+          "id": 34
+        },
+        {
+          "selected": true,
+          "id": 35
+        },
+        {
+          "selected": true,
+          "id": 36
+        },
+        {
+          "selected": true,
+          "id": 37
+        },
+        {
+          "selected": false,
+          "id": 38
+        },
+        {
+          "selected": false,
+          "id": 39
+        },
+        {
+          "selected": false,
+          "id": 40
+        },
+        {
+          "selected": false,
+          "id": 41
+        },
+        {
+          "selected": false,
+          "id": 42
+        },
+        {
+          "selected": false,
+          "id": 43
+        },
+        {
+          "selected": true,
+          "id": 44
+        },
+        {
+          "selected": true,
+          "id": 45
+        },
+        {
+          "selected": false,
+          "id": 46
+        },
+        {
+          "selected": true,
+          "id": 47
+        },
+        {
+          "selected": false,
+          "id": 48
+        },
+        {
+          "selected": false,
+          "id": 49
+        },
+        {
+          "selected": true,
+          "id": 50
+        },
+        {
+          "selected": true,
+          "id": 51
+        },
+        {
+          "selected": false,
+          "id": 52
+        },
+        {
+          "selected": true,
+          "id": 53
+        },
+        {
+          "selected": true,
+          "id": 54
+        },
+        {
+          "selected": true,
+          "id": 55
+        },
+        {
+          "selected": false,
+          "id": 56
+        },
+        {
+          "selected": true,
+          "id": 57
+        },
+        {
+          "selected": false,
+          "id": 58
+        },
+        {
+          "selected": true,
+          "id": 59
+        },
+        {
+          "selected": false,
+          "id": 60
+        },
+        {
+          "selected": false,
+          "id": 61
+        },
+        {
+          "selected": false,
+          "id": 62
+        },
+        {
+          "selected": true,
+          "id": 63
+        },
+        {
+          "selected": true,
+          "id": 64
+        },
+        {
+          "selected": false,
+          "id": 65
+        },
+        {
+          "selected": false,
+          "id": 66
+        },
+        {
+          "selected": false,
+          "id": 67
+        },
+        {
+          "selected": false,
+          "id": 68
+        },
+        {
+          "selected": true,
+          "id": 69
+        },
+        {
+          "selected": false,
+          "id": 70
+        },
+        {
+          "selected": true,
+          "id": 71
+        },
+        {
+          "selected": true,
+          "id": 72
+        },
+        {
+          "selected": false,
+          "id": 73
+        },
+        {
+          "selected": true,
+          "id": 74
+        },
+        {
+          "selected": false,
+          "id": 75
+        },
+        {
+          "selected": true,
+          "id": 76
+        },
+        {
+          "selected": true,
+          "id": 77
+        },
+        {
+          "selected": true,
+          "id": 78
+        },
+        {
+          "selected": true,
+          "id": 79
+        },
+        {
+          "selected": false,
+          "id": 80
+        },
+        {
+          "selected": true,
+          "id": 81
+        },
+        {
+          "selected": true,
+          "id": 82
+        },
+        {
+          "selected": false,
+          "id": 83
+        },
+        {
+          "selected": false,
+          "id": 84
+        },
+        {
+          "selected": false,
+          "id": 85
+        },
+        {
+          "selected": false,
+          "id": 86
+        },
+        {
+          "selected": false,
+          "id": 87
+        },
+        {
+          "selected": true,
+          "id": 88
+        },
+        {
+          "selected": true,
+          "id": 89
+        },
+        {
+          "selected": true,
+          "id": 90
+        },
+        {
+          "selected": true,
+          "id": 91
+        },
+        {
+          "selected": true,
+          "id": 92
+        },
+        {
+          "selected": true,
+          "id": 93
+        },
+        {
+          "selected": false,
+          "id": 94
+        },
+        {
+          "selected": false,
+          "id": 95
+        },
+        {
+          "selected": true,
+          "id": 96
+        },
+        {
+          "selected": false,
+          "id": 97
+        },
+        {
+          "selected": false,
+          "id": 98
+        },
+        {
+          "selected": true,
+          "id": 99
+        },
+        {
+          "selected": false,
+          "id": 100
+        }
+      ]
+    }
+  ],
+  "chart": {
+    "title": "Airport VFE climb scatterplot",
+    "description": "Scatterplot of the average time flown level per flight vs. the median CCO altitude. The number of flights is the number of IFR departures from an airport.",
+    "axis_x": {
+      "title": "Median CCO Altitude",
+      "units": "ft"
+    },
+    "axis_y": {
+      "title": "Average Time Flown Level per Flight",
+      "units": "s"
+    },
+    "legend": {
+      "colour": "Share of CCO Operations",
+      "size": "Number of Climb Operations"
+    },
+    "datachart": [
+      {
+        "values": {
+          "colour": 0.9525400139,
+          "value_y": 8.8812804454,
+          "value_x": 19815.5416376711,
+          "size": 21555.0
+        },
+        "id": 1
+      },
+      {
+        "values": {
+          "colour": 0.7172161748,
+          "value_y": 39.4921994734,
+          "value_x": 34624.1506431668,
+          "size": 50894.0
+        },
+        "id": 2
+      },
+      {
+        "values": {
+          "colour": 0.7862796834,
+          "value_y": 29.7906218187,
+          "value_x": 33095.4351520249,
+          "size": 48133.0
+        },
+        "id": 3
+      },
+      {
+        "values": {
+          "colour": 0.732113192,
+          "value_y": 34.1921367618,
+          "value_x": 33570.5962663059,
+          "size": 70429.0
+        },
+        "id": 4
+      },
+      {
+        "values": {
+          "colour": 0.8232944041,
+          "value_y": 18.3660188484,
+          "value_x": 33000.0,
+          "size": 110885.0
+        },
+        "id": 5
+      },
+      {
+        "values": {
+          "colour": 0.8012589518,
+          "value_y": 21.4733385029,
+          "value_x": 31963.9089942855,
+          "size": 21923.0
+        },
+        "id": 6
+      },
+      {
+        "values": {
+          "colour": 0.8849177235,
+          "value_y": 12.6452852601,
+          "value_x": 33404.2540090137,
+          "size": 28623.0
+        },
+        "id": 7
+      },
+      {
+        "values": {
+          "colour": 0.7653957131,
+          "value_y": 36.2949505359,
+          "value_x": 31721.6942365953,
+          "size": 48520.0
+        },
+        "id": 8
+      },
+      {
+        "values": {
+          "colour": 0.6252253933,
+          "value_y": 64.5884536467,
+          "value_x": 30971.388805562,
+          "size": 160830.0
+        },
+        "id": 9
+      },
+      {
+        "values": {
+          "colour": 0.7703219101,
+          "value_y": 35.9156247134,
+          "value_x": 30387.4205160344,
+          "size": 32711.0
+        },
+        "id": 10
+      },
+      {
+        "values": {
+          "colour": 0.7395608147,
+          "value_y": 40.8342814882,
+          "value_x": 34713.4134610412,
+          "size": 35156.0
+        },
+        "id": 11
+      },
+      {
+        "values": {
+          "colour": 0.5241783636,
+          "value_y": 44.8217327114,
+          "value_x": 31771.3508296139,
+          "size": 93472.0
+        },
+        "id": 12
+      },
+      {
+        "values": {
+          "colour": 0.4675790012,
+          "value_y": 64.5114342923,
+          "value_x": 26272.0270087169,
+          "size": 66423.0
+        },
+        "id": 13
+      },
+      {
+        "values": {
+          "colour": 0.7749821401,
+          "value_y": 32.3705981774,
+          "value_x": 34000.0,
+          "size": 57391.0
+        },
+        "id": 14
+      },
+      {
+        "values": {
+          "colour": 0.9107569333,
+          "value_y": 9.9542818151,
+          "value_x": 32191.8423459455,
+          "size": 20517.0
+        },
+        "id": 15
+      },
+      {
+        "values": {
+          "colour": 0.9188036702,
+          "value_y": 6.4943536055,
+          "value_x": 36000.0,
+          "size": 34004.0
+        },
+        "id": 16
+      },
+      {
+        "values": {
+          "colour": 0.9017569829,
+          "value_y": 11.3178980564,
+          "value_x": 24987.2758184236,
+          "size": 31076.0
+        },
+        "id": 17
+      },
+      {
+        "values": {
+          "colour": 0.6837740777,
+          "value_y": 64.0582761998,
+          "value_x": 33526.1242790293,
+          "size": 30630.0
+        },
+        "id": 18
+      },
+      {
+        "values": {
+          "colour": 0.8573318256,
+          "value_y": 15.3338738239,
+          "value_x": 30405.9077597112,
+          "size": 46871.0
+        },
+        "id": 19
+      },
+      {
+        "values": {
+          "colour": 0.7243378222,
+          "value_y": 45.0442566664,
+          "value_x": 33769.9381454086,
+          "size": 44852.0
+        },
+        "id": 20
+      },
+      {
+        "values": {
+          "colour": 0.6453338913,
+          "value_y": 40.0914688826,
+          "value_x": 31277.530481148,
+          "size": 33454.0
+        },
+        "id": 21
+      },
+      {
+        "values": {
+          "colour": 0.7732300053,
+          "value_y": 27.1354383501,
+          "value_x": 33897.9535364821,
+          "size": 119619.0
+        },
+        "id": 22
+      },
+      {
+        "values": {
+          "colour": 0.8758247522,
+          "value_y": 13.7627750324,
+          "value_x": 34209.5945080479,
+          "size": 36223.0
+        },
+        "id": 23
+      },
+      {
+        "values": {
+          "colour": 0.5634753269,
+          "value_y": 44.1463517503,
+          "value_x": 14609.4354234032,
+          "size": 21339.0
+        },
+        "id": 24
+      },
+      {
+        "values": {
+          "colour": 0.6980092039,
+          "value_y": 29.3745596143,
+          "value_x": 26867.4625637049,
+          "size": 59323.0
+        },
+        "id": 25
+      },
+      {
+        "values": {
+          "colour": 0.7549846747,
+          "value_y": 32.70951433,
+          "value_x": 33493.7461931874,
+          "size": 31647.0
+        },
+        "id": 26
+      },
+      {
+        "values": {
+          "colour": 0.6858425343,
+          "value_y": 43.5076101538,
+          "value_x": 32742.7269524217,
+          "size": 38764.0
+        },
+        "id": 27
+      },
+      {
+        "values": {
+          "colour": 0.8534016003,
+          "value_y": 13.4060231911,
+          "value_x": 35087.7297149722,
+          "size": 129101.0
+        },
+        "id": 28
+      },
+      {
+        "values": {
+          "colour": 0.5258858268,
+          "value_y": 44.1524676603,
+          "value_x": 32134.4220295037,
+          "size": 142240.0
+        },
+        "id": 29
+      },
+      {
+        "values": {
+          "colour": 0.6559150035,
+          "value_y": 48.5508653038,
+          "value_x": 33001.1604256757,
+          "size": 115393.0
+        },
+        "id": 30
+      },
+      {
+        "values": {
+          "colour": 0.7566403706,
+          "value_y": 34.0449446334,
+          "value_x": 31833.7384823317,
+          "size": 27634.0
+        },
+        "id": 31
+      },
+      {
+        "values": {
+          "colour": 0.7011908028,
+          "value_y": 32.593941722,
+          "value_x": 32732.4065645064,
+          "size": 91115.0
+        },
+        "id": 32
+      },
+      {
+        "values": {
+          "colour": 0.8468554769,
+          "value_y": 15.3800499792,
+          "value_x": 29822.954403919,
+          "size": 24010.0
+        },
+        "id": 33
+      },
+      {
+        "values": {
+          "colour": 0.9428706721,
+          "value_y": 8.4413526086,
+          "value_x": 28215.1681011671,
+          "size": 35901.0
+        },
+        "id": 34
+      },
+      {
+        "values": {
+          "colour": 0.7391070655,
+          "value_y": 28.8351972258,
+          "value_x": 33694.4360527916,
+          "size": 57675.0
+        },
+        "id": 35
+      },
+      {
+        "values": {
+          "colour": 0.7073061257,
+          "value_y": 34.6428290898,
+          "value_x": 34358.4645559583,
+          "size": 89117.0
+        },
+        "id": 36
+      },
+      {
+        "values": {
+          "colour": 0.8739801608,
+          "value_y": 12.6323765921,
+          "value_x": 34000.0,
+          "size": 85185.0
+        },
+        "id": 37
+      },
+      {
+        "values": {
+          "colour": 0.7508788159,
+          "value_y": 28.4130897317,
+          "value_x": 33000.0,
+          "size": 21620.0
+        },
+        "id": 38
+      },
+      {
+        "values": {
+          "colour": 0.7353526369,
+          "value_y": 33.1810116804,
+          "value_x": 35380.6318630202,
+          "size": 42721.0
+        },
+        "id": 39
+      },
+      {
+        "values": {
+          "colour": 0.8192491614,
+          "value_y": 22.0782242524,
+          "value_x": 35015.1692144098,
+          "size": 28022.0
+        },
+        "id": 40
+      },
+      {
+        "values": {
+          "colour": 0.8514955135,
+          "value_y": 22.4151545364,
+          "value_x": 34376.5485211034,
+          "size": 20060.0
+        },
+        "id": 41
+      },
+      {
+        "values": {
+          "colour": 0.8537982565,
+          "value_y": 16.4781070984,
+          "value_x": 33981.9506498224,
+          "size": 20075.0
+        },
+        "id": 42
+      },
+      {
+        "values": {
+          "colour": 0.826042228,
+          "value_y": 24.4965463185,
+          "value_x": 29072.9442612726,
+          "size": 20413.0
+        },
+        "id": 43
+      },
+      {
+        "values": {
+          "colour": 0.8125872216,
+          "value_y": 43.2580092227,
+          "value_x": 34000.0,
+          "size": 65924.0
+        },
+        "id": 44
+      },
+      {
+        "values": {
+          "colour": 0.7276253869,
+          "value_y": 43.5232755331,
+          "value_x": 35414.9583103687,
+          "size": 47174.0
+        },
+        "id": 45
+      },
+      {
+        "values": {
+          "colour": 0.7853931352,
+          "value_y": 26.3415396425,
+          "value_x": 30021.2093740563,
+          "size": 36476.0
+        },
+        "id": 46
+      },
+      {
+        "values": {
+          "colour": 0.9091687267,
+          "value_y": 9.1893984848,
+          "value_x": 34422.7447132804,
+          "size": 125001.0
+        },
+        "id": 47
+      },
+      {
+        "values": {
+          "colour": 0.8375887493,
+          "value_y": 20.3333902239,
+          "value_x": 36000.0,
+          "size": 29296.0
+        },
+        "id": 48
+      },
+      {
+        "values": {
+          "colour": 0.8855819539,
+          "value_y": 12.9695085342,
+          "value_x": 33840.3006261257,
+          "size": 23318.0
+        },
+        "id": 49
+      },
+      {
+        "values": {
+          "colour": 0.7066932891,
+          "value_y": 34.2518902412,
+          "value_x": 32278.8261215706,
+          "size": 68113.0
+        },
+        "id": 50
+      },
+      {
+        "values": {
+          "colour": 0.8289895252,
+          "value_y": 20.867737253,
+          "value_x": 34016.8187157212,
+          "size": 76469.0
+        },
+        "id": 51
+      },
+      {
+        "values": {
+          "colour": 0.7266173032,
+          "value_y": 38.4282930631,
+          "value_x": 27785.1470916318,
+          "size": 25660.0
+        },
+        "id": 52
+      },
+      {
+        "values": {
+          "colour": 0.6892972886,
+          "value_y": 37.0508412601,
+          "value_x": 32668.0323943581,
+          "size": 199641.0
+        },
+        "id": 53
+      },
+      {
+        "values": {
+          "colour": 0.7226525393,
+          "value_y": 33.7884179759,
+          "value_x": 32323.1248720127,
+          "size": 109480.0
+        },
+        "id": 54
+      },
+      {
+        "values": {
+          "colour": 0.7208960405,
+          "value_y": 32.2718547712,
+          "value_x": 35732.8674198851,
+          "size": 48971.0
+        },
+        "id": 55
+      },
+      {
+        "values": {
+          "colour": 0.7270677462,
+          "value_y": 36.1107922517,
+          "value_x": 35050.9447576099,
+          "size": 19514.0
+        },
+        "id": 56
+      },
+      {
+        "values": {
+          "colour": 0.7238855029,
+          "value_y": 28.5152621735,
+          "value_x": 31634.9807932863,
+          "size": 235779.0
+        },
+        "id": 57
+      },
+      {
+        "values": {
+          "colour": 0.8266688384,
+          "value_y": 21.2009935663,
+          "value_x": 34378.2218501515,
+          "size": 36837.0
+        },
+        "id": 58
+      },
+      {
+        "values": {
+          "colour": 0.6954983867,
+          "value_y": 48.8038200735,
+          "value_x": 31072.8169049983,
+          "size": 57957.0
+        },
+        "id": 59
+      },
+      {
+        "values": {
+          "colour": 0.7753492131,
+          "value_y": 26.7914726594,
+          "value_x": 35903.9970992822,
+          "size": 25987.0
+        },
+        "id": 60
+      },
+      {
+        "values": {
+          "colour": 0.8350064271,
+          "value_y": 20.6464161107,
+          "value_x": 31007.33206692,
+          "size": 32674.0
+        },
+        "id": 61
+      },
+      {
+        "values": {
+          "colour": 0.7962186954,
+          "value_y": 26.7025439667,
+          "value_x": 31579.4778813126,
+          "size": 30307.0
+        },
+        "id": 62
+      },
+      {
+        "values": {
+          "colour": 0.8188466948,
+          "value_y": 18.388185654,
+          "value_x": 32200.7501172058,
+          "size": 85320.0
+        },
+        "id": 63
+      },
+      {
+        "values": {
+          "colour": 0.7072021696,
+          "value_y": 36.3561662985,
+          "value_x": 34003.1890621942,
+          "size": 71534.0
+        },
+        "id": 64
+      },
+      {
+        "values": {
+          "colour": 0.9004899623,
+          "value_y": 13.1913888046,
+          "value_x": 33831.3776243567,
+          "size": 23063.0
+        },
+        "id": 65
+      },
+      {
+        "values": {
+          "colour": 0.9207455989,
+          "value_y": 7.5744908526,
+          "value_x": 10898.8581290991,
+          "size": 28970.0
+        },
+        "id": 66
+      },
+      {
+        "values": {
+          "colour": 0.4975227745,
+          "value_y": 107.6316525491,
+          "value_x": 33900.0856138387,
+          "size": 25028.0
+        },
+        "id": 67
+      },
+      {
+        "values": {
+          "colour": 0.9042247073,
+          "value_y": 11.9627885684,
+          "value_x": 35355.5496697404,
+          "size": 30582.0
+        },
+        "id": 68
+      },
+      {
+        "values": {
+          "colour": 0.889214239,
+          "value_y": 10.5099742678,
+          "value_x": 35088.6273315641,
+          "size": 123969.0
+        },
+        "id": 69
+      },
+      {
+        "values": {
+          "colour": 0.792181369,
+          "value_y": 30.8196483069,
+          "value_x": 24790.3710897965,
+          "size": 34405.0
+        },
+        "id": 70
+      },
+      {
+        "values": {
+          "colour": 0.7421005917,
+          "value_y": 26.0024753452,
+          "value_x": 32717.2799215741,
+          "size": 101400.0
+        },
+        "id": 71
+      },
+      {
+        "values": {
+          "colour": 0.7324813201,
+          "value_y": 37.55644347,
+          "value_x": 33293.5103232073,
+          "size": 103989.0
+        },
+        "id": 72
+      },
+      {
+        "values": {
+          "colour": 0.8446554571,
+          "value_y": 19.8419156283,
+          "value_x": 31912.9530888085,
+          "size": 26644.0
+        },
+        "id": 73
+      },
+      {
+        "values": {
+          "colour": 0.7309832322,
+          "value_y": 29.9514166635,
+          "value_x": 33000.0,
+          "size": 237777.0
+        },
+        "id": 74
+      },
+      {
+        "values": {
+          "colour": 0.5254237288,
+          "value_y": 77.8811637649,
+          "value_x": 24879.6864525168,
+          "size": 26019.0
+        },
+        "id": 75
+      },
+      {
+        "values": {
+          "colour": 0.7111287467,
+          "value_y": 39.0436830125,
+          "value_x": 33226.1945187945,
+          "size": 114667.0
+        },
+        "id": 76
+      },
+      {
+        "values": {
+          "colour": 0.8431482356,
+          "value_y": 16.2118413063,
+          "value_x": 34000.0,
+          "size": 148210.0
+        },
+        "id": 77
+      },
+      {
+        "values": {
+          "colour": 0.3974097917,
+          "value_y": 65.9100551853,
+          "value_x": 17652.664716667,
+          "size": 237201.0
+        },
+        "id": 78
+      },
+      {
+        "values": {
+          "colour": 0.7910788645,
+          "value_y": 18.3939303058,
+          "value_x": 34664.1026843904,
+          "size": 86693.0
+        },
+        "id": 79
+      },
+      {
+        "values": {
+          "colour": 0.2370698279,
+          "value_y": 91.7601290516,
+          "value_x": 6812.0965886355,
+          "size": 39984.0
+        },
+        "id": 80
+      },
+      {
+        "values": {
+          "colour": 0.8466994658,
+          "value_y": 17.9038362863,
+          "value_x": 36000.0,
+          "size": 66262.0
+        },
+        "id": 81
+      },
+      {
+        "values": {
+          "colour": 0.7784616982,
+          "value_y": 29.8881409591,
+          "value_x": 32997.0401702304,
+          "size": 192680.0
+        },
+        "id": 82
+      },
+      {
+        "values": {
+          "colour": 0.8187922245,
+          "value_y": 22.3616280516,
+          "value_x": 35431.7937743133,
+          "size": 24127.0
+        },
+        "id": 83
+      },
+      {
+        "values": {
+          "colour": 0.7692567996,
+          "value_y": 23.3632249059,
+          "value_x": 29487.6479068849,
+          "size": 23641.0
+        },
+        "id": 84
+      },
+      {
+        "values": {
+          "colour": 0.9287661349,
+          "value_y": 9.3561693257,
+          "value_x": 29787.9366097437,
+          "size": 24946.0
+        },
+        "id": 85
+      },
+      {
+        "values": {
+          "colour": 0.7887180714,
+          "value_y": 20.7259675779,
+          "value_x": 28319.1445335088,
+          "size": 33434.0
+        },
+        "id": 86
+      },
+      {
+        "values": {
+          "colour": 0.8483039568,
+          "value_y": 25.7818335821,
+          "value_x": 36000.0,
+          "size": 24793.0
+        },
+        "id": 87
+      },
+      {
+        "values": {
+          "colour": 0.6658366876,
+          "value_y": 43.1757620659,
+          "value_x": 32135.2644417858,
+          "size": 130927.0
+        },
+        "id": 88
+      },
+      {
+        "values": {
+          "colour": 0.751444014,
+          "value_y": 39.9263030922,
+          "value_x": 33849.8576043614,
+          "size": 43109.0
+        },
+        "id": 89
+      },
+      {
+        "values": {
+          "colour": 0.8498101686,
+          "value_y": 17.0753873452,
+          "value_x": 35650.4901273056,
+          "size": 100879.0
+        },
+        "id": 90
+      },
+      {
+        "values": {
+          "colour": 0.7667167424,
+          "value_y": 24.1285352837,
+          "value_x": 33364.7763347062,
+          "size": 252950.0
+        },
+        "id": 91
+      },
+      {
+        "values": {
+          "colour": 0.7286510068,
+          "value_y": 34.2943520037,
+          "value_x": 30424.4861091168,
+          "size": 55471.0
+        },
+        "id": 92
+      },
+      {
+        "values": {
+          "colour": 0.9200249922,
+          "value_y": 7.2023846715,
+          "value_x": 33085.0161407893,
+          "size": 57618.0
+        },
+        "id": 93
+      },
+      {
+        "values": {
+          "colour": 0.8677142749,
+          "value_y": 16.1344766366,
+          "value_x": 34022.6131839778,
+          "size": 26473.0
+        },
+        "id": 94
+      },
+      {
+        "values": {
+          "colour": 0.7680057908,
+          "value_y": 33.5009048136,
+          "value_x": 32253.1388806633,
+          "size": 30393.0
+        },
+        "id": 95
+      },
+      {
+        "values": {
+          "colour": 0.857764028,
+          "value_y": 16.060460122,
+          "value_x": 30711.2223852353,
+          "size": 94062.0
+        },
+        "id": 96
+      },
+      {
+        "values": {
+          "colour": 0.7275441182,
+          "value_y": 29.4671050145,
+          "value_x": 19756.6966842323,
+          "size": 26463.0
+        },
+        "id": 97
+      },
+      {
+        "values": {
+          "colour": 0.8197816217,
+          "value_y": 22.016134479,
+          "value_x": 33535.4186209398,
+          "size": 26651.0
+        },
+        "id": 98
+      },
+      {
+        "values": {
+          "colour": 0.8402206905,
+          "value_y": 14.8510655116,
+          "value_x": 32784.2879199865,
+          "size": 63256.0
+        },
+        "id": 99
+      },
+      {
+        "values": {
+          "colour": 0.9484738372,
+          "value_y": 7.0044331395,
+          "value_x": 30000.0,
+          "size": 27520.0
+        },
+        "id": 100
+      }
+    ]
+  },
+  "dictionary": {
+    "entities": [
+      {
+        "state": "Norway",
+        "code": "ENTC",
+        "type": "airport",
+        "id": 1,
+        "name": "Tromso"
+      },
+      {
+        "state": "Hungary",
+        "code": "LHBP",
+        "type": "airport",
+        "id": 2,
+        "name": "Budapest"
+      },
+      {
+        "state": "France",
+        "code": "LFML",
+        "type": "airport",
+        "id": 3,
+        "name": "Marseille"
+      },
+      {
+        "state": "France",
+        "code": "LFMN",
+        "type": "airport",
+        "id": 4,
+        "name": "Nice"
+      },
+      {
+        "state": "Ireland",
+        "code": "EIDW",
+        "type": "airport",
+        "id": 5,
+        "name": "Dublin"
+      },
+      {
+        "state": "Spain",
+        "code": "LEBB",
+        "type": "airport",
+        "id": 6,
+        "name": "Bilbao"
+      },
+      {
+        "state": "Spain",
+        "code": "GCRR",
+        "type": "airport",
+        "id": 7,
+        "name": "Las Palmas/Lanzarote"
+      },
+      {
+        "state": "France",
+        "code": "LFBO",
+        "type": "airport",
+        "id": 8,
+        "name": "Toulouse"
+      },
+      {
+        "state": "Spain",
+        "code": "LEBL",
+        "type": "airport",
+        "id": 9,
+        "name": "Barcelona"
+      },
+      {
+        "state": "France",
+        "code": "LFBD",
+        "type": "airport",
+        "id": 10,
+        "name": "Bordeaux"
+      },
+      {
+        "state": "Italy",
+        "code": "LIPE",
+        "type": "airport",
+        "id": 11,
+        "name": "Bologna"
+      },
+      {
+        "state": "United Kingdom",
+        "code": "EGSS",
+        "type": "airport",
+        "id": 12,
+        "name": "London/Stansted"
+      },
+      {
+        "state": "United Kingdom",
+        "code": "EGGW",
+        "type": "airport",
+        "id": 13,
+        "name": "London/Luton"
+      },
+      {
+        "state": "Romania",
+        "code": "LROP",
+        "type": "airport",
+        "id": 14,
+        "name": "Bucharest"
+      },
+      {
+        "state": "Estonia",
+        "code": "EETN",
+        "type": "airport",
+        "id": 15,
+        "name": "Tallinn"
+      },
+      {
+        "state": "Spain",
+        "code": "GCTS",
+        "type": "airport",
+        "id": 16,
+        "name": "Tenerife/Sur"
+      },
+      {
+        "state": "United Kingdom",
+        "code": "EGPD",
+        "type": "airport",
+        "id": 17,
+        "name": "Aberdeen"
+      },
+      {
+        "state": "Cyprus",
+        "code": "LCLK",
+        "type": "airport",
+        "id": 18,
+        "name": "Larnaca"
+      },
+      {
+        "state": "United Kingdom",
+        "code": "EGPF",
+        "type": "airport",
+        "id": 19,
+        "name": "Glasgow"
+      },
+      {
+        "state": "Italy",
+        "code": "LIPZ",
+        "type": "airport",
+        "id": 20,
+        "name": "Venice"
+      },
+      {
+        "state": "United Kingdom",
+        "code": "EGGD",
+        "type": "airport",
+        "id": 21,
+        "name": "Bristol"
+      },
+      {
+        "state": "Austria",
+        "code": "LOWW",
+        "type": "airport",
+        "id": 22,
+        "name": "Vienna"
+      },
+      {
+        "state": "Sweden",
+        "code": "ESGG",
+        "type": "airport",
+        "id": 23,
+        "name": "Gothenborg"
+      },
+      {
+        "state": "United Kingdom",
+        "code": "EGHI",
+        "type": "airport",
+        "id": 24,
+        "name": "Southampton"
+      },
+      {
+        "state": "United Kingdom",
+        "code": "EGBB",
+        "type": "airport",
+        "id": 25,
+        "name": "Birmingham"
+      },
+      {
+        "state": "Serbia",
+        "code": "LYBE",
+        "type": "airport",
+        "id": 26,
+        "name": "Belgrade"
+      },
+      {
+        "state": "France",
+        "code": "LFSB",
+        "type": "airport",
+        "id": 27,
+        "name": "Mulhouse"
+      },
+      {
+        "state": "Denmark",
+        "code": "EKCH",
+        "type": "airport",
+        "id": 28,
+        "name": "Copenhagen/Kastrup"
+      },
+      {
+        "state": "United Kingdom",
+        "code": "EGKK",
+        "type": "airport",
+        "id": 29,
+        "name": "London/Gatwick"
+      },
+      {
+        "state": "Belgium",
+        "code": "EBBR",
+        "type": "airport",
+        "id": 30,
+        "name": "Brussels"
+      },
+      {
+        "state": "France",
+        "code": "LFRS",
+        "type": "airport",
+        "id": 31,
+        "name": "Nantes"
+      },
+      {
+        "state": "Switzerland",
+        "code": "LSGG",
+        "type": "airport",
+        "id": 32,
+        "name": "Geneva"
+      },
+      {
+        "state": "United Kingdom",
+        "code": "EGAA",
+        "type": "airport",
+        "id": 33,
+        "name": "Belfast"
+      },
+      {
+        "state": "Norway",
+        "code": "ENBR",
+        "type": "airport",
+        "id": 34,
+        "name": "Bergen"
+      },
+      {
+        "state": "Italy",
+        "code": "LIML",
+        "type": "airport",
+        "id": 35,
+        "name": "Milan/Linate"
+      },
+      {
+        "state": "Italy",
+        "code": "LIMC",
+        "type": "airport",
+        "id": 36,
+        "name": "Milan/Malpensa"
+      },
+      {
+        "state": "Poland",
+        "code": "EPWA",
+        "type": "airport",
+        "id": 37,
+        "name": "Warszawa/Chopina"
+      },
+      {
+        "state": "Italy",
+        "code": "LIMF",
+        "type": "airport",
+        "id": 38,
+        "name": "Torino"
+      },
+      {
+        "state": "Italy",
+        "code": "LIME",
+        "type": "airport",
+        "id": 39,
+        "name": "Bergamo"
+      },
+      {
+        "state": "Bulgaria",
+        "code": "LBSF",
+        "type": "airport",
+        "id": 40,
+        "name": "Sofia"
+      },
+      {
+        "state": "Spain",
+        "code": "LEZL",
+        "type": "airport",
+        "id": 41,
+        "name": "Seville"
+      },
+      {
+        "state": "Denmark",
+        "code": "EKBI",
+        "type": "airport",
+        "id": 42,
+        "name": "Billund"
+      },
+      {
+        "state": "Croatia",
+        "code": "LDZA",
+        "type": "airport",
+        "id": 43,
+        "name": "Zagreb"
+      },
+      {
+        "state": "Israel",
+        "code": "LLBG",
+        "type": "airport",
+        "id": 44,
+        "name": "Tel Aviv/Ben Gurion"
+      },
+      {
+        "state": "Spain",
+        "code": "LEAL",
+        "type": "airport",
+        "id": 45,
+        "name": "Alicante"
+      },
+      {
+        "state": "Spain",
+        "code": "LEIB",
+        "type": "airport",
+        "id": 46,
+        "name": "Ibiza"
+      },
+      {
+        "state": "Norway",
+        "code": "ENGM",
+        "type": "airport",
+        "id": 47,
+        "name": "Oslo/Gardermoen"
+      },
+      {
+        "state": "Portugal",
+        "code": "LPFR",
+        "type": "airport",
+        "id": 48,
+        "name": "Faro"
+      },
+      {
+        "state": "Spain",
+        "code": "GCFV",
+        "type": "airport",
+        "id": 49,
+        "name": "Fuerteventura"
+      },
+      {
+        "state": "Germany",
+        "code": "EDDK",
+        "type": "airport",
+        "id": 50,
+        "name": "Cologne-Bonn"
+      },
+      {
+        "state": "Germany",
+        "code": "EDDH",
+        "type": "airport",
+        "id": 51,
+        "name": "Hamburg"
+      },
+      {
+        "state": "Germany",
+        "code": "EDDN",
+        "type": "airport",
+        "id": 52,
+        "name": "Nurnberg"
+      },
+      {
+        "state": "Germany",
+        "code": "EDDM",
+        "type": "airport",
+        "id": 53,
+        "name": "Munich"
+      },
+      {
+        "state": "Germany",
+        "code": "EDDL",
+        "type": "airport",
+        "id": 54,
+        "name": "Dusseldorf"
+      },
+      {
+        "state": "Germany",
+        "code": "EDDB",
+        "type": "airport",
+        "id": 55,
+        "name": "Berlin/Schonefeld"
+      },
+      {
+        "state": "Italy",
+        "code": "LIRP",
+        "type": "airport",
+        "id": 56,
+        "name": "Pisa"
+      },
+      {
+        "state": "Germany",
+        "code": "EDDF",
+        "type": "airport",
+        "id": 57,
+        "name": "Frankfurt"
+      },
+      {
+        "state": "Italy",
+        "code": "LIRN",
+        "type": "airport",
+        "id": 58,
+        "name": "Naples"
+      },
+      {
+        "state": "Germany",
+        "code": "EDDS",
+        "type": "airport",
+        "id": 59,
+        "name": "Stuttgart"
+      },
+      {
+        "state": "Italy",
+        "code": "LIRA",
+        "type": "airport",
+        "id": 60,
+        "name": "Rome/Ciampino"
+      },
+      {
+        "state": "Germany",
+        "code": "EDDP",
+        "type": "airport",
+        "id": 61,
+        "name": "Leipzig"
+      },
+      {
+        "state": "Germany",
+        "code": "EDDV",
+        "type": "airport",
+        "id": 62,
+        "name": "Hannover"
+      },
+      {
+        "state": "Germany",
+        "code": "EDDT",
+        "type": "airport",
+        "id": 63,
+        "name": "Berlin/Tegel"
+      },
+      {
+        "state": "Czech Republic",
+        "code": "LKPR",
+        "type": "airport",
+        "id": 64,
+        "name": "Prague"
+      },
+      {
+        "state": "Italy",
+        "code": "LICJ",
+        "type": "airport",
+        "id": 65,
+        "name": "Palermo"
+      },
+      {
+        "state": "Spain",
+        "code": "GCXO",
+        "type": "airport",
+        "id": 66,
+        "name": "Tenerife/Norte"
+      },
+      {
+        "state": "Belgium",
+        "code": "EBCI",
+        "type": "airport",
+        "id": 67,
+        "name": "Charleroi"
+      },
+      {
+        "state": "Italy",
+        "code": "LICC",
+        "type": "airport",
+        "id": 68,
+        "name": "Catania"
+      },
+      {
+        "state": "Sweden",
+        "code": "ESSA",
+        "type": "airport",
+        "id": 69,
+        "name": "Stockholm/Arlanda"
+      },
+      {
+        "state": "Luxembourg",
+        "code": "ELLX",
+        "type": "airport",
+        "id": 70,
+        "name": "Luxembourg"
+      },
+      {
+        "state": "United Kingdom",
+        "code": "EGCC",
+        "type": "airport",
+        "id": 71,
+        "name": "Manchester"
+      },
+      {
+        "state": "Spain",
+        "code": "LEPA",
+        "type": "airport",
+        "id": 72,
+        "name": "Palma de Mallorca"
+      },
+      {
+        "state": "Greece",
+        "code": "LGTS",
+        "type": "airport",
+        "id": 73,
+        "name": "Thessaloniki"
+      },
+      {
+        "state": "France",
+        "code": "LFPG",
+        "type": "airport",
+        "id": 74,
+        "name": "Paris/Charles de Gaulle"
+      },
+      {
+        "state": "France",
+        "code": "LFPB",
+        "type": "airport",
+        "id": 75,
+        "name": "Paris/Le Bourget"
+      },
+      {
+        "state": "France",
+        "code": "LFPO",
+        "type": "airport",
+        "id": 76,
+        "name": "Paris/Orly"
+      },
+      {
+        "state": "Italy",
+        "code": "LIRF",
+        "type": "airport",
+        "id": 77,
+        "name": "Rome/Fiumicino"
+      },
+      {
+        "state": "United Kingdom",
+        "code": "EGLL",
+        "type": "airport",
+        "id": 78,
+        "name": "London/Heathrow"
+      },
+      {
+        "state": "Finland",
+        "code": "EFHK",
+        "type": "airport",
+        "id": 79,
+        "name": "Helsinki/Vantaa"
+      },
+      {
+        "state": "United Kingdom",
+        "code": "EGLC",
+        "type": "airport",
+        "id": 80,
+        "name": "London/City"
+      },
+      {
+        "state": "Spain",
+        "code": "LEMG",
+        "type": "airport",
+        "id": 81,
+        "name": "Malaga"
+      },
+      {
+        "state": "Spain",
+        "code": "LEMD",
+        "type": "airport",
+        "id": 82,
+        "name": "Madrid/Barajas"
+      },
+      {
+        "state": "Poland",
+        "code": "EPKK",
+        "type": "airport",
+        "id": 83,
+        "name": "Krakow"
+      },
+      {
+        "state": "United Kingdom",
+        "code": "EGNT",
+        "type": "airport",
+        "id": 84,
+        "name": "Newcastle"
+      },
+      {
+        "state": "Norway",
+        "code": "ENZV",
+        "type": "airport",
+        "id": 85,
+        "name": "Stavanger"
+      },
+      {
+        "state": "United Kingdom",
+        "code": "EGNX",
+        "type": "airport",
+        "id": 86,
+        "name": "East Midlands"
+      },
+      {
+        "state": "Malta",
+        "code": "LMML",
+        "type": "airport",
+        "id": 87,
+        "name": "Malta"
+      },
+      {
+        "state": "Switzerland",
+        "code": "LSZH",
+        "type": "airport",
+        "id": 88,
+        "name": "Zurich"
+      },
+      {
+        "state": "Portugal",
+        "code": "LPPR",
+        "type": "airport",
+        "id": 89,
+        "name": "Porto"
+      },
+      {
+        "state": "Portugal",
+        "code": "LPPT",
+        "type": "airport",
+        "id": 90,
+        "name": "Lisbon"
+      },
+      {
+        "state": "Netherlands",
+        "code": "EHAM",
+        "type": "airport",
+        "id": 91,
+        "name": "Amsterdam/Schiphol"
+      },
+      {
+        "state": "France",
+        "code": "LFLL",
+        "type": "airport",
+        "id": 92,
+        "name": "Lyon"
+      },
+      {
+        "state": "Spain",
+        "code": "GCLP",
+        "type": "airport",
+        "id": 93,
+        "name": "Gran Canaria"
+      },
+      {
+        "state": "Latvia",
+        "code": "EVRA",
+        "type": "airport",
+        "id": 94,
+        "name": "Riga"
+      },
+      {
+        "state": "Spain",
+        "code": "LEVC",
+        "type": "airport",
+        "id": 95,
+        "name": "Valencia"
+      },
+      {
+        "state": "Greece",
+        "code": "LGAV",
+        "type": "airport",
+        "id": 96,
+        "name": "Athens"
+      },
+      {
+        "state": "Sweden",
+        "code": "ESSB",
+        "type": "airport",
+        "id": 97,
+        "name": "Stockholm/Bromma"
+      },
+      {
+        "state": "Greece",
+        "code": "LGIR",
+        "type": "airport",
+        "id": 98,
+        "name": "Heraklion"
+      },
+      {
+        "state": "United Kingdom",
+        "code": "EGPH",
+        "type": "airport",
+        "id": 99,
+        "name": "Edinburgh"
+      },
+      {
+        "state": "Norway",
+        "code": "ENVA",
+        "type": "airport",
+        "id": 100,
+        "name": "Trondheim"
+      }
+    ],
+    "kpa": [
+      {
+        "ind_id": 3,
+        "value": "Environment",
+        "kpi": [
+          {
+            "ind_id": 23,
+            "value": "HFE"
+          },
+          {
+            "ind_id": 24,
+            "value": "VFE Climb"
+          },
+          {
+            "ind_id": 25,
+            "value": "VFE Descent"
+          }
+        ]
+      }
+    ]
+  }
+}

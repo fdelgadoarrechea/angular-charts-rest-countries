@@ -1,0 +1,517 @@
+{
+  "type": "temporal_evolution",
+  "controls": [
+    {
+      "control_type": "hierarchical-selector",
+      "selection_type": "single",
+      "name": "Selected kpi",
+      "enabled": false,
+      "values": [
+        {
+          "ind_id": 1,
+          "kpi": [
+            {
+              "ind_id": 12,
+              "selected": false,
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "ind_id": 2,
+          "kpi": [
+            {
+              "ind_id": 13,
+              "selected": true,
+              "enabled": true
+            },
+            {
+              "ind_id": 14,
+              "selected": false,
+              "enabled": false
+            }
+          ]
+        },
+        {
+          "ind_id": 3,
+          "kpi": [
+            {
+              "ind_id": 15,
+              "selected": false,
+              "enabled": true
+            },
+            {
+              "ind_id": 16,
+              "selected": false,
+              "enabled": true
+            },
+            {
+              "ind_id": 17,
+              "selected": false,
+              "enabled": false
+            },
+            {
+              "ind_id": 18,
+              "selected": false,
+              "enabled": false
+            },
+            {
+              "ind_id": 19,
+              "selected": false,
+              "enabled": false
+            },
+            {
+              "ind_id": 20,
+              "selected": false,
+              "enabled": false
+            },
+            {
+              "ind_id": 21,
+              "selected": false,
+              "enabled": false
+            },
+            {
+              "ind_id": 22,
+              "selected": false,
+              "enabled": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "control_type": "selector",
+      "selection_type": "single",
+      "name": "Temporal granularity",
+      "enabled": false,
+      "values": [
+        {
+          "selection_name": "Month",
+          "selected": false
+        },
+        {
+          "selection_name": "Year",
+          "selected": false
+        },
+        {
+          "selection_name": "Range",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "control_type": "date-picker",
+      "selection_type": "multiple",
+      "min_granularity": "month",
+      "max_selection": 5,
+      "name": "Temporal intervals",
+      "enabled": false,
+      "values": [
+        {
+          "value_from": "2016-01",
+          "value_to": "2016-12"
+        },
+        {
+          "value_from": "2017-01",
+          "value_to": "2017-12"
+        }
+      ]
+    },
+    {
+      "control_type": "selector",
+      "selection_type": "multiple",
+      "max_selection": 5,
+      "name": "Entity selection",
+      "enabled": false,
+      "values": [
+        {
+          "selected": true,
+          "id": 1
+        },
+        {
+          "selected": true,
+          "id": 2
+        },
+        {
+          "selected": true,
+          "id": 3
+        }
+      ]
+    },
+    {
+      "control_type": "selector",
+      "selection_type": "multiple",
+      "name": "Category",
+      "enabled": false,
+      "values": [
+        {
+          "selected": true,
+          "id": 1
+        },
+        {
+          "selected": true,
+          "id": 2
+        },
+        {
+          "selected": true,
+          "id": 3
+        },
+        {
+          "selected": true,
+          "id": 4
+        },
+        {
+          "selected": true,
+          "id": 5
+        },
+        {
+          "selected": true,
+          "id": 6
+        },
+        {
+          "selected": true,
+          "id": 7
+        }
+      ]
+    }
+  ],
+  "chart": {
+    "title": "En-route ATFM delay barplot",
+    "description": "Barplot of en-route ATFM delay per flight. The delay of a flight is attributed to the entity generating the most restricting regulation. The number of flights is the number of IFR flights crossing that entity.",
+    "axis_x": {
+      "title": "Range"
+    },
+    "axis_y": {
+      "title": "ATFM delay per flight",
+      "units": "Minutes-per-flight"
+    },
+    "datachart": [
+      {
+        "values": [
+          {
+            "categories": [
+              {
+                "id": 1,
+                "value": 0.0370080059
+              },
+              {
+                "id": 2,
+                "value": 0.0001696093
+              },
+              {
+                "id": 3,
+                "value": 0.0034735134
+              },
+              {
+                "id": 4,
+                "value": 0.0013654353
+              },
+              {
+                "id": 5,
+                "value": 0.0
+              },
+              {
+                "id": 6,
+                "value": 0.0635628338
+              },
+              {
+                "id": 7,
+                "value": 0.0011498121
+              }
+            ]
+          },
+          {
+            "categories": [
+              {
+                "id": 1,
+                "value": 0.0689689642
+              },
+              {
+                "id": 2,
+                "value": 0.004288866
+              },
+              {
+                "id": 3,
+                "value": 0.0036368459
+              },
+              {
+                "id": 4,
+                "value": 0.0039362326
+              },
+              {
+                "id": 5,
+                "value": 0.0
+              },
+              {
+                "id": 6,
+                "value": 0.0259336245
+              },
+              {
+                "id": 7,
+                "value": 0.0024759687
+              }
+            ]
+          }
+        ],
+        "id": 1
+      },
+      {
+        "values": [
+          {
+            "categories": [
+              {
+                "id": 1,
+                "value": 0.0183994275
+              },
+              {
+                "id": 2,
+                "value": 0.004208639
+              },
+              {
+                "id": 3,
+                "value": 0.0689109596
+              },
+              {
+                "id": 4,
+                "value": 0.0022867568
+              },
+              {
+                "id": 5,
+                "value": 0.0
+              },
+              {
+                "id": 6,
+                "value": 0.0039082466
+              },
+              {
+                "id": 7,
+                "value": 0.0000047182
+              }
+            ]
+          },
+          {
+            "categories": [
+              {
+                "id": 1,
+                "value": 0.0041462778
+              },
+              {
+                "id": 2,
+                "value": 0.0754680246
+              },
+              {
+                "id": 3,
+                "value": 0.0055250053
+              },
+              {
+                "id": 4,
+                "value": 0.0029651294
+              },
+              {
+                "id": 5,
+                "value": 0.0
+              },
+              {
+                "id": 6,
+                "value": 0.0025584337
+              },
+              {
+                "id": 7,
+                "value": 0.0002192119
+              }
+            ]
+          }
+        ],
+        "id": 2
+      },
+      {
+        "values": [
+          {
+            "categories": [
+              {
+                "id": 1,
+                "value": 0.0994242096
+              },
+              {
+                "id": 2,
+                "value": 0.309196192
+              },
+              {
+                "id": 3,
+                "value": 0.0227140454
+              },
+              {
+                "id": 4,
+                "value": 0.1715190226
+              },
+              {
+                "id": 5,
+                "value": 0.0
+              },
+              {
+                "id": 6,
+                "value": 0.0108829064
+              },
+              {
+                "id": 7,
+                "value": 0.0140800703
+              }
+            ]
+          },
+          {
+            "categories": [
+              {
+                "id": 1,
+                "value": 0.1304921579
+              },
+              {
+                "id": 2,
+                "value": 0.22875405
+              },
+              {
+                "id": 3,
+                "value": 0.0349034712
+              },
+              {
+                "id": 4,
+                "value": 0.0122892159
+              },
+              {
+                "id": 5,
+                "value": 0.0
+              },
+              {
+                "id": 6,
+                "value": 0.0119408723
+              },
+              {
+                "id": 7,
+                "value": 0.0156072733
+              }
+            ]
+          }
+        ],
+        "id": 3
+      }
+    ]
+  },
+  "dictionary": {
+    "entities": [
+      {
+        "code": "LE",
+        "type": "COUNTRY (FIR)",
+        "id": 1,
+        "name": "Spain"
+      },
+      {
+        "code": "LP",
+        "type": "COUNTRY (FIR)",
+        "id": 2,
+        "name": "Portugal"
+      },
+      {
+        "code": "LF",
+        "type": "COUNTRY (FIR)",
+        "id": 3,
+        "name": "France"
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "name": "ER Weather"
+      },
+      {
+        "id": 2,
+        "name": "ER Disruptions (ATC)"
+      },
+      {
+        "id": 3,
+        "name": "ER Staffing (ATC)"
+      },
+      {
+        "id": 4,
+        "name": "ER Events"
+      },
+      {
+        "id": 5,
+        "name": "ER Capacity (ATC)"
+      },
+      {
+        "id": 6,
+        "name": "ER Disruptions (non-ATC)"
+      },
+      {
+        "id": 7,
+        "name": "ER Capacity (non-ATC)"
+      }
+    ],
+    "kpa": [
+      {
+        "ind_id": 1,
+        "value": "Traffic",
+        "kpi": [
+          {
+            "ind_id": 12,
+            "value": "IFR Flights"
+          }
+        ]
+      },
+      {
+        "ind_id": 2,
+        "value": "Capacity",
+        "kpi": [
+          {
+            "ind_id": 13,
+            "value": "Airport ATFM delay",
+            "json_file": "temporal_evolution_airport_atfm_delay.json"
+          },
+          {
+            "ind_id": 14,
+            "value": "En-route ATFM delay"
+          }
+        ]
+      },
+      {
+        "ind_id": 3,
+        "value": "Environment",
+        "kpi": [
+          {
+            "ind_id": 15,
+            "value": "HFE (Actual)",
+            "json_file": "temporal_evolution_hfe_actual.json"
+          },
+          {
+            "ind_id": 16,
+            "value": "HFE (Planned)",
+            "json_file": "temporal_evolution_hfe_planned.json"
+          },
+          {
+            "ind_id": 17,
+            "value": "VFE Median CCO Altitude"
+          },
+          {
+            "ind_id": 18,
+            "value": "VFE Median CDO Altitude"
+          },
+          {
+            "ind_id": 19,
+            "value": "VFE Average Time Flight Level Climb"
+          },
+          {
+            "ind_id": 20,
+            "value": "VFE Average Time Flight Level Descend"
+          },
+          {
+            "ind_id": 21,
+            "value": "Additional Taxi-out Time"
+          },
+          {
+            "ind_id": 22,
+            "value": "Additional Time in Terminal Airspace"
+          }
+        ]
+      }
+    ]
+  }
+}

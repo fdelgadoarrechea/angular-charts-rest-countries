@@ -1,0 +1,31 @@
+<div ngClass.lt-md="lt-md" fxLayout.lt-md="column" class="ballmenu" fxFlexFill>
+  <div fxFlex="25">
+    <a routerLink="/evolution" disableRipple>
+      <button mat-icon-button class="mat-elevation-z2">
+        <mat-icon svgIcon="evolution"></mat-icon><span>Time</span
+        ><span class="second">Series</span>
+      </button>
+    </a>
+  </div>
+  <div fxFlex="25" class="disabled">
+    <a routerLink="/home" disableRipple class="down">
+      <button mat-icon-button class="mat-elevation-z2">
+        <mat-icon svgIcon="scatterplot"></mat-icon><span>Scatterplot</span>
+      </button>
+    </a>
+  </div>
+  <div fxFlex="25">
+    <a routerLink="/ranking" disableRipple class="down">
+      <button mat-icon-button class="mat-elevation-z2">
+        <mat-icon svgIcon="ranking"></mat-icon><span>Ranking</span>
+      </button>
+    </a>
+  </div>
+  <div fxFlex="25">
+    <a routerLink="/home" class="disabled" disableRipple>
+      <button mat-icon-button class="mat-elevation-z2">
+        <mat-icon svgIcon="barplot"></mat-icon><span>Barplot</span>
+      </button>
+    </a>
+  </div>
+</div>

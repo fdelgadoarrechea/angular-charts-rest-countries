@@ -1,0 +1,54 @@
+<mat-sidenav
+  [mode]="sidenavMode"
+  [opened]="!isSmallScreen"
+  [fixedInViewport]="true"
+  class="lesson-list-sidenav"
+  #lessonSidenav
+>
+  <mat-nav-list>
+    <a
+      mat-list-item
+      routerLink="/chart-menu"
+      routerLinkActive="active-item"
+      disableRipple
+    >
+      <mat-icon>menu</mat-icon><span>Back to data selection</span>
+    </a>
+    <a
+      mat-list-item
+      routerLink="/evolution"
+      routerLinkActive="active-item"
+      disableRipple
+      class="color"
+    >
+      <mat-icon svgIcon="evolution"></mat-icon><span>Time Series</span>
+    </a>
+    <a
+      mat-list-item
+      routerLink="/home"
+      routerLinkActive="active-item"
+      disableRipple
+      class="color"
+    >
+      <mat-icon svgIcon="scatterplot"></mat-icon><span>Scatterplot</span>
+    </a>
+    <a
+      mat-list-item
+      routerLink="/ranking"
+      routerLinkActive="active-item"
+      disableRipple
+      class="color"
+    >
+      <mat-icon svgIcon="ranking"></mat-icon><span>Ranking</span>
+    </a>
+    <a
+      mat-list-item
+      routerLink="/home"
+      routerLinkActive="active-item"
+      disableRipple
+      class="color"
+    >
+      <mat-icon svgIcon="barplot"></mat-icon><span>Barplot</span>
+    </a>
+  </mat-nav-list>
+</mat-sidenav>

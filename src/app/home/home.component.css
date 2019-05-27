@@ -1,0 +1,13 @@
+:host {
+  margin: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+:host .content.home {
+  padding: 0 20px 20px 20px;
+}
+:host .homesvg {
+  width: 96%;
+  margin: 0 auto;
+  display: block;
+}
